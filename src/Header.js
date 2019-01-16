@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
-                <Navbar inverse collapseOnSelect>
+                <Navbar collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <a href="#brand">Tha & Vu</a>
@@ -16,18 +16,24 @@ class Header extends Component {
                     <Navbar.Collapse>
                         <Nav>
                             <NavItem eventKey={1} href="#">
-                                Link
+                                About
                             </NavItem>
                             <NavItem eventKey={2} href="#">
-                                Link
+                                Our Story
+                            </NavItem>
+                            <NavItem eventKey={3} href="#">
+                                Attendants
                             </NavItem>
                         </Nav>
                         <Nav pullRight>
                             <NavItem eventKey={1} href="#">
-                                Link Right
+                                The Event
                             </NavItem>
                             <NavItem eventKey={2} href="#">
-                                Link Right
+                                Registry
+                            </NavItem>
+                            <NavItem eventKey={3} href="#">
+                                Gallery
                             </NavItem>
                         </Nav>
                     </Navbar.Collapse>
