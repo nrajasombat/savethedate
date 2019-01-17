@@ -1,75 +1,86 @@
-.section-heading{
-    margin-bottom: 50px;
-    text-align: center;
+.section-heading {
+  margin-bottom: 50px;
+  text-align: center;
 }
-.main-img{
-    max-width: 40%;
-    margin: 0 auto;
-    border: 5px solid;
-
+.main-img {
+  max-width: 40%;
+  margin: 0 auto;
+  border: 5px solid;
 }
-.img-circle{
-    border-radius: 50%;
-    border-color: #fdf2f9;
-}
-
-.img-responsive{
-    display:block;
-    height: auto;
+.img-circle {
+  border-radius: 50%;
+  border-color: #fdf2f9;
 }
 
-.text-ornament{
-    background-image: url("titlebg.png");
+.img-responsive {
+  display: block;
+  height: 250px;
 }
-h4 {
-    font-size: 30px;
-    color: #333;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    margin: 30px 0px;
-    font-family: 'Montserrat', sans-serif;
+
+@media only screen and (max-width: 1024px) {
+  .img-responsive {
+    height: 200px;
+  }
 }
 
 .text-ornament {
-    text-align: center;
-    font-weight: 800;
-    padding: 15px;
-    color: #fff;
-    text-shadow: 0px 1px 9px rgba(102, 98, 98, 0.36);
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("titlebg.png");
+}
+h4 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: 30px 0px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.main-subheader{
-    text-align: center;
-    margin-bottom: 20px;
+.text-ornament {
+  text-align: center;
+  font-weight: 800;
+  padding: 15px;
+  color: #fff;
+  text-shadow: 0px 1px 9px rgba(102, 98, 98, 0.36);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-h6{
-    font-size: 20px;
-    line-height: 18px;
-    font-weight: 700;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    letter-spacing: -0.1px;
-}
-p, ul {
-    font-size: 16px;
-    line-height: 32px;
-    margin: 0 0 10px;
-    text-align: left;
-}
-.smaller.social-media{
-    margin-top: 20px;
+.main-subheader {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.social-media{
-    width: 100%;
-    text-align: center;
+h6 {
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 700;
+  font-family: "Lora", serif;
+  font-style: italic;
+  letter-spacing: -0.1px;
+}
+p,
+ul {
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0 0 10px;
+  text-align: left;
+}
+.smaller.social-media {
+  margin-top: 20px;
+}
+
+.social-media {
+  width: 100%;
+  text-align: center;
 }
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile.img-circle {
+  height: 300px;
+  width: auto;
 }

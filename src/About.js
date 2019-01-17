@@ -7,7 +7,7 @@ import Section from "./Section";
 import Header from "./Header";
 import thapic from "./Tha.png";
 import vupic from "./Vu.png";
-import { Col } from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
 
 class About extends Component {
   render() {
@@ -17,7 +17,9 @@ class About extends Component {
         <Section />
         <div className="container">
           <Col md={6} md={6}>
-            <img src={vupic} alt class="main-img img-responsive img-circle" />
+            <div className="couple">
+              <Image src={vupic} circle bsClass="profile img" />
+            </div>
             <h4 class="text-ornament">Vu</h4>
             <h6 class="main-subheader">Chubby Wiener</h6>
             <p>
@@ -46,7 +48,9 @@ class About extends Component {
             </div>
           </Col>
           <Col md={6} md={6}>
-            <img src={thapic} alt class="main-img img-responsive img-circle" />
+            <div className="couple">
+              <Image src={thapic} circle bsClass="profile img" />
+            </div>
 
             <h4 class="text-ornament">Tha</h4>
             <h6 class="main-subheader">Badass Woman</h6>
