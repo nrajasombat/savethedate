@@ -2,7 +2,7 @@
  * Created by tharajasombat on 1/16/19.
  */
 import React, {Component} from 'react';
-import './App.css';
+import './About.css';
 import Section from './Section'
 import Header from './Header'
 import thapic from "./Tha.png"
