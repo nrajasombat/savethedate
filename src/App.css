@@ -26,6 +26,78 @@
   margin-bottom: 50px;
   text-align: center;
 }
+.main-img{
+  max-width: 40%;
+  margin: 0 auto;
+  border: 5px solid;
+
+}
+.img-circle{
+  border-radius: 50%;
+  border-color: #fdf2f9;
+}
+
+.img-responsive{
+  display:block;
+  height: auto;
+}
+
+.text-ornament{
+  background-image: url("titlebg.png");
+}
+h4 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: 30px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-ornament {
+  text-align: center;
+  font-weight: 800;
+  padding: 15px;
+  color: #fff;
+  text-shadow: 0px 1px 9px rgba(102, 98, 98, 0.36);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-subheader{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h6{
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 700;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  letter-spacing: -0.1px;
+}
+p, ul {
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0 0 10px;
+  text-align: left;
+}
+.smaller.social-media{
+  margin-top: 20px;
+}
+
+.social-media{
+  width: 100%;
+  text-align: center;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 @keyframes App-logo-spin {
   from {
