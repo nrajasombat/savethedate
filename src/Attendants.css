@@ -1,0 +1,10 @@
+.nav-tabs {
+  text-align: center;
+  border-bottom: 0;
+  margin-bottom: -1px;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
