@@ -1,29 +1,16 @@
 import React, { Component } from "react";
 import "./Section.css";
-import Section from "./Section";
 import "./Attendants.css";
-import { Col } from "react-bootstrap";
+import { PageHeader } from "react-bootstrap";
+import Bridesmaid from "./Bridesmaid";
 
 class Attendants extends Component {
   render() {
     return (
       <div class="attendants">
-        <Section />
+        <PageHeader> Our Story</PageHeader>
         <div className="container">
-          <Col md={12}>
-            <ul className="nav nav-tabs">
-              <li className="active">
-                <a href="#bridemaids" data-toggle="tab" aria-expanded="true">
-                  The Ladies
-                </a>
-              </li>
-              <li className="">
-                <a href="#groomsman" data-toggle="tab" aria-expanded="false">
-                  The Gentlemen
-                </a>
-              </li>
-            </ul>
-          </Col>
+          <Bridesmaid />
         </div>
       </div>
     );

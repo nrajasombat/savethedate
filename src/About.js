@@ -5,8 +5,8 @@ import React, { Component } from "react";
 import "./About.css";
 import Section from "./Section";
 import Header from "./Header";
-import thapic from "./Tha.png";
-import vupic from "./Vu.png";
+import thapic from "./images/Tha.png";
+import vupic from "./images/Vu.png";
 import { Col, Image } from "react-bootstrap";
 
 class About extends Component {
