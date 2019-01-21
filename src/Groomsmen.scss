@@ -1,5 +1,5 @@
-.bridalparty {
-  .maid.img-circle {
+.groomsparty {
+  .man.img-circle {
     height: 250px;
     width: 100%;
   }
@@ -19,4 +19,10 @@
     color: #d884b9;
     letter-spacing: 1.2px;
   }
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  height: 350px;
 }

@@ -1,0 +1,38 @@
+.nav-tabs {
+  text-align: center;
+  border-bottom: 0;
+  margin-bottom: -1px;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.collapsible {
+  display: none;
+}
+
+.collapsible.open {
+  display: block;
+}
+
+.attendants {
+  ul {
+    .nav-tabs {
+      text-align: center;
+      border-bottom: 0;
+      margin-bottom: -1px;
+    }
+    li {
+      list-style-type: none;
+      text-align: center;
+      border-radius: 10px;
+    }
+    a {
+      color: gray;
+      position: relative;
+      display: inline-block;
+      min-height: 50px;
+    }
+  }
+}
