@@ -1,80 +1,75 @@
 import React, { Component } from 'react';
-import { Thumbnail, Button, Navbar, Grid, Row, Col } from 'react-bootstrap';
-import './App.css';
-import thapic from './Tha.png';
+import './Bridesmaid.scss';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import pic1 from './images/firstdate.png';
+import pic2 from './images/firstParty.png';
+import pic3 from './images/brianwedding.png';
+import pic4 from './images/sefwedding.png';
+import pic5 from './images/xmas2016.png';
+import pic6 from './images/calitrip.png';
+import { Image } from 'react-bootstrap';
+
+const selfies = [
+  {
+    picture: pic1,
+    description: 'Jenny Manokoune',
+    date: 'Maid of Honor',
+  },
+  {
+    picture: pic2,
+    description: 'Jenny Manokoune',
+    date: 'Maid of Honor',
+  },
+  {
+    picture: pic3,
+    description: 'Jenny Manokoune',
+    date: 'Maid of Honor',
+  },
+  {
+    picture: pic4,
+    description: 'Jenny Manokoune',
+    date: 'Maid of Honor',
+  },
+  {
+    picture: pic5,
+    description: 'Jenny Manokoune',
+    date: 'Maid of Honor',
+  },
+  {
+    picture: pic6,
+    description: 'Jenny Manokoune',
+    date: 'Maid of Honor',
+  },
+];
+const options = {
+  items: 3,
+  nav: 'true',
+  loop: 'true',
+  responsive: {
+    0: { items: 1 },
+    600: { items: 2 },
+    900: { items: 3 },
+  },
+};
 
 class OurStory extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
-        <Grid>
-          <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={thapic}>
-                <h3>We Met</h3>
-                <p>Description</p>
-                <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
-                </p>
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src="/static/natural-beauty.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
-                </p>
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src="/static/natural-beauty.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
-                </p>
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src="/static/natural-beauty.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
-                </p>
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src="/static/natural-beauty.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
-                </p>
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src="/static/natural-beauty.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
-                </p>
-              </Thumbnail>
-            </Col>
-          </Row>
-        </Grid>
-        ;
+      <div className="container">
+        <OwlCarousel className="owl-theme" margin={10} {...options}>
+          {selfies.map(selfie => (
+            <div class="photos">
+              <Image src={selfie.picture} circle bsClass="maid img" />
+              <div className="description">{selfie.description}</div>
+              <div className="date">{selfie.date}</div>
+            </div>
+          ))}
+        </OwlCarousel>
       </div>
     );
   }
 }
+
 export default OurStory;
