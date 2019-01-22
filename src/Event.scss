@@ -34,7 +34,7 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   left: -5px;
   top: 4px;
-  transform: rotate(-2.5deg);
+  transform: rotate(-4.5deg);
   content: '';
   height: 98%;
   position: absolute;
@@ -44,4 +44,17 @@
 
 .margin1 {
   margin-top: 50px;
+}
+
+.mapouter {
+  text-align: right;
+  min-height: 450px;
+  min-width: 100%;
+  margin-top: 50px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
 }
