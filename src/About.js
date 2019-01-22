@@ -1,20 +1,19 @@
 /**
  * Created by tharajasombat on 1/16/19.
  */
-import React, { Component } from "react";
-import "./About.css";
-import Section from "./Section";
-import Header from "./Header";
-import thapic from "./images/Tha.png";
-import vupic from "./images/Vu.png";
-import { Col, Image } from "react-bootstrap";
+import React, { Component } from 'react';
+import './About.css';
+import Section from './Section';
+import Header from './Header';
+import thapic from './images/Tha.png';
+import vupic from './images/Vu.png';
+import { Col, Image } from 'react-bootstrap';
 
 class About extends Component {
   render() {
     return (
       <div class="about">
         <Header />
-        <Section />
         <div className="container">
           <Col md={6} md={6}>
             <div className="couple">

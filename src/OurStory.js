@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Thumbnail, Button, Navbar, Grid, Row, Col } from "react-bootstrap";
-import "./App.css";
-import thapic from "./Tha.png";
+import React, { Component } from 'react';
+import { Thumbnail, Button, Navbar, Grid, Row, Col } from 'react-bootstrap';
+import './App.css';
+import thapic from './Tha.png';
 
 class OurStory extends Component {
   render() {

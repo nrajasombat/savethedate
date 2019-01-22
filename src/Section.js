@@ -1,14 +1,36 @@
-import React, { Component } from "react";
-import "./Section.css";
+import React, { Component } from 'react';
+import './Section.css';
+
+const headings = [
+  {
+    header: 'About The Couple',
+  },
+  {
+    header: 'Our Story',
+  },
+  {
+    header: 'Bridesmaids & Groomsman',
+  },
+  {
+    header: 'The Event',
+  },
+  {
+    header: 'Registry',
+  },
+  {
+    header: 'Gallery',
+  },
+];
 
 class Section extends Component {
   render() {
     return (
       <div class="container">
-        <div className="section-heading">
-          <h2>About The Couple</h2>
-          <div className="hr" />
-        </div>
+        {headings.map(heading => (
+          <div class="section-heading">
+            <div>{heading.header}</div>
+          </div>
+        ))}
       </div>
     );
   }

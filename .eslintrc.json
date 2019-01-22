@@ -2,6 +2,8 @@
   "extends": "react-app",
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "object-property-newline": "error",
+    "array-element-newline": "error"
   }
 }

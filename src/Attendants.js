@@ -1,23 +1,23 @@
-import React, { Component } from "react";
-import "./Section.css";
-import "./Attendants.css";
-import "./Attendants.scss";
-import { Col } from "react-bootstrap";
-import Bridesmaid from "./Bridesmaid";
-import Groomsmen from "./Groomsmen";
+import React, { Component } from 'react';
+import './Section.css';
+import './Attendants.css';
+import './Attendants.scss';
+import { Col } from 'react-bootstrap';
+import Bridesmaid from './Bridesmaid';
+import Groomsmen from './Groomsmen';
 
 class Attendants extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      current: 0
+      current: 0,
     };
   }
 
   toggle(index) {
     this.setState({
-      current: index
+      current: index,
     });
   }
 
@@ -32,7 +32,7 @@ class Attendants extends Component {
               </a>
               <div
                 className={`collapsible ${
-                  this.state.current === 1 ? "open " : ""
+                  this.state.current === 1 ? 'open ' : ''
                 }`}
               >
                 <Bridesmaid />
@@ -44,7 +44,7 @@ class Attendants extends Component {
               </a>
               <div
                 className={`collapsible ${
-                  this.state.current === 2 ? "open " : ""
+                  this.state.current === 2 ? 'open ' : ''
                 }`}
               >
                 <Groomsmen />
