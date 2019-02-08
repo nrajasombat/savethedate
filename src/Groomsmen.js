@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Groomsmen.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -48,22 +48,20 @@ const options = {
   },
 };
 
-class Groomsmen extends Component {
-  render() {
-    return (
-      <div className="container">
-        <OwlCarousel className="owl-theme" margin={10} {...options}>
-          {groomsmen.map(groomsman => (
-            <div class="groomsparty">
-              <Image src={groomsman.picture} circle bsClass="men img" />
-              <div className="info">{groomsman.name}</div>
-              <div className="description">{groomsman.job}</div>
-            </div>
-          ))}
-        </OwlCarousel>
-      </div>
-    );
-  }
-}
+const Groomsmen = () => {
+  return (
+    <div className="container">
+      <OwlCarousel className="owl-theme" margin={10} {...options}>
+        {groomsmen.map(groomsman => (
+          <div class="groomsparty">
+            <Image src={groomsman.picture} circle bsClass="men img" />
+            <div className="info">{groomsman.name}</div>
+            <div className="description">{groomsman.job}</div>
+          </div>
+        ))}
+      </OwlCarousel>
+    </div>
+  );
+};
 
 export default Groomsmen;

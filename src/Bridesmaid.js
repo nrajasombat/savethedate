@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Bridesmaid.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -48,22 +48,20 @@ const options = {
   },
 };
 
-class Bridesmaid extends Component {
-  render() {
-    return (
-      <div className="container">
-        <OwlCarousel className="owl-theme" margin={10} {...options}>
-          {bridesmaids.map(bridesmaid => (
-            <div class="bridalparty">
-              <Image src={bridesmaid.picture} circle bsClass="maid img" />
-              <div className="info">{bridesmaid.name}</div>
-              <div className="description">{bridesmaid.job}</div>
-            </div>
-          ))}
-        </OwlCarousel>
-      </div>
-    );
-  }
-}
+const Bridesmaid = () => {
+  return (
+    <div className="container">
+      <OwlCarousel className="owl-theme" margin={10} {...options}>
+        {bridesmaids.map(bridesmaid => (
+          <div class="bridalparty">
+            <Image src={bridesmaid.picture} circle bsClass="maid img" />
+            <div className="info">{bridesmaid.name}</div>
+            <div className="description">{bridesmaid.job}</div>
+          </div>
+        ))}
+      </OwlCarousel>
+    </div>
+  );
+};
 
 export default Bridesmaid;

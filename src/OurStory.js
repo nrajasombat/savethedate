@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './Bridesmaid.scss';
+import React from 'react';
+import './OurStory.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -44,32 +44,37 @@ const selfies = [
   },
 ];
 const options = {
-  items: 3,
+  items: '4',
   nav: 'true',
   loop: 'true',
   responsive: {
     0: { items: 1 },
-    600: { items: 2 },
-    900: { items: 3 },
+    425: { items: 1 },
+    800: { items: 3 },
   },
 };
 
-class OurStory extends Component {
-  render() {
-    return (
-      <div className="container">
-        <OwlCarousel className="owl-theme" margin={10} {...options}>
-          {selfies.map(selfie => (
-            <div class="photos">
-              <Image src={selfie.picture} circle bsClass="maid img" />
-              <div className="description">{selfie.description}</div>
-              <div className="date">{selfie.date}</div>
-            </div>
-          ))}
-        </OwlCarousel>
-      </div>
-    );
-  }
-}
+const OurStory = () => {
+  return (
+    <div className="container-fluid">
+      <OwlCarousel className="owl-theme" margin={10} {...options}>
+        {selfies.map(selfie => (
+          <div class="photos">
+            <a href={selfie.picture}>
+              <Image
+                src={selfie.picture}
+                rounded
+                responsive
+                bsClass="selfies img"
+              />
+              <h1>{selfie.description}</h1>
+              <p>{selfie.date}</p>
+            </a>
+          </div>
+        ))}
+      </OwlCarousel>
+    </div>
+  );
+};
 
 export default OurStory;
