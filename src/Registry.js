@@ -1,6 +1,5 @@
 import React from 'react';
-import { Col, Image, Row } from 'react-bootstrap';
-import celebrate from './images/Celebrate.png';
+import { Col, Row } from 'react-bootstrap';
 import './Event.scss';
 
 const Registry = () => {

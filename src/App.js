@@ -6,6 +6,7 @@ import Event from './Event';
 import OurStory from './OurStory';
 import Details from './Details';
 import Registry from './Registry';
+import Pics from './Pics';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Event />
         <Details />
         <Registry />
+        <Pics />
       </div>
     );
   }
