@@ -1,50 +1,72 @@
 import React, { Component } from 'react';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
+import img1 from './images/engagement1.png';
+import img2 from './images/engagement2.png';
+import img3 from './images/engagment3.jpg';
+import img4 from './images/engagment4.png';
+import img5 from './images/engagement5.jpg';
+import img6 from './images/engagement6.jpg';
+import img7 from './images/engagement7.jpg';
+import img8 from './images/engagement8.jpg';
+import img9 from './images/engagement9.jpg';
+import img10 from './images/engagement10.jpg';
+import img11 from './images/engagement11.jpg';
 
 const photos = [
   {
-    src: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599',
+    src: img1,
     width: 4,
     height: 3,
   },
   {
-    src: 'https://source.unsplash.com/Dm-qxdynoEc/800x799',
-    width: 1,
-    height: 1,
+    src: img7,
+    width: 1.5,
+    height: 2,
   },
   {
-    src: 'https://source.unsplash.com/qDkso9nvCg0/600x799',
-    width: 3,
-    height: 4,
-  },
-  {
-    src: 'https://source.unsplash.com/iecJiKe_RNg/600x799',
-    width: 3,
-    height: 4,
-  },
-  {
-    src: 'https://source.unsplash.com/epcsn8Ed8kY/600x799',
-    width: 3,
-    height: 4,
-  },
-  {
-    src: 'https://source.unsplash.com/NQSWvyVRIJk/800x599',
+    src: img3,
     width: 4,
     height: 3,
   },
   {
-    src: 'https://source.unsplash.com/zh7GEuORbUw/600x799',
+    src: img4,
     width: 3,
     height: 4,
   },
   {
-    src: 'https://source.unsplash.com/PpOHJezOalU/800x599',
+    src: img5,
+    width: 3,
+    height: 4,
+  },
+  {
+    src: img6,
     width: 4,
     height: 3,
   },
   {
-    src: 'https://source.unsplash.com/I1ASdgphUH4/800x599',
+    src: img8,
+    width: 3,
+    height: 4,
+  },
+  {
+    src: img2,
+    width: 4,
+    height: 3,
+  },
+
+  {
+    src: img11,
+    width: 1.5,
+    height: 2,
+  },
+  {
+    src: img9,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: img10,
     width: 4,
     height: 3,
   },
@@ -83,7 +105,7 @@ class Pics extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="container">
         <Gallery photos={photos} onClick={this.openLightbox} />
         <Lightbox
           images={photos}
