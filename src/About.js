@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import Header from './Header';
 import thapic from './images/Tha.png';
 import vupic from './images/Vu.png';
 import { Col, Image } from 'react-bootstrap';
@@ -8,7 +7,6 @@ import { Col, Image } from 'react-bootstrap';
 const About = () => {
   return (
     <div class="about">
-      <Header />
       <div className="container">
         <Col md={6}>
           <div className="couple">

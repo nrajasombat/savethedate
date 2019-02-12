@@ -10,7 +10,7 @@
 }
 
 .text-ornament {
-  background-image: url("titlebg.png");
+  background-image: url('titlebg.png');
 }
 h4 {
   font-size: 30px;
@@ -18,7 +18,7 @@ h4 {
   font-weight: 400;
   letter-spacing: 1.2px;
   margin: 30px 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .text-ornament {
@@ -40,7 +40,7 @@ h6 {
   font-size: 20px;
   line-height: 18px;
   font-weight: 700;
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   font-style: italic;
   letter-spacing: -0.1px;
 }
