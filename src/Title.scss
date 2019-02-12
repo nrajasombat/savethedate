@@ -1,8 +1,37 @@
 .title-page {
-  background: url('./images/background/pinkdiamond.png');
+  background: #f2e8f1;
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
+  .names {
+    h1 {
+      font-size: 100px;
+      line-height: 90px;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+      font-family: 'Playlist Script', serif;
+      color: #6f738a;
+      .italic {
+        font-style: italic;
+        font-family: 'Apple Chancery', sans-serif;
+        font-size: 120px;
+        vertical-align: middle;
+      }
+    }
+    h5 {
+      font-size: 16px;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+  }
+  section {
+    padding: 100px 0px;
+  }
   .center {
     padding: 19px;
     margin-bottom: 50px;
@@ -12,6 +41,20 @@
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 
+    h1 {
+      font-size: 100px;
+      line-height: 90px;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+      font-family: 'Playlist Script', serif;
+      color: #6f738a;
+      .italic {
+        font-style: italic;
+        font-family: 'Apple Chancery', sans-serif;
+        font-size: 120px;
+        vertical-align: middle;
+      }
+    }
     .hr {
       border-top: 1px dotted;
       color: pink;
@@ -59,19 +102,4 @@
 
 .margin1 {
   margin-top: 50px;
-}
-
-h1 {
-  font-size: 100px;
-  line-height: 90px;
-  margin-bottom: 20px;
-  letter-spacing: -1px;
-  font-family: 'Playlist Script', serif;
-  color: #6f738a;
-  .italic {
-    font-style: italic;
-    font-family: 'Apple Chancery', sans-serif;
-    font-size: 120px;
-    vertical-align: middle;
-  }
 }
