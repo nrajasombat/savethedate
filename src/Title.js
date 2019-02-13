@@ -8,22 +8,13 @@ const Title = () => {
       <div className="container">
         <Row>
           <Col md={12}>
-            <div className="names">
+            <div className="names-text">
               <h1>
                 Tha
                 <span className="italic"> &amp; </span>
                 Vu
               </h1>
               <h5 className="margin1 text-ornament">Are getting married</h5>
-            </div>
-          </Col>
-          <Col md={12}>
-            <section />
-            <div className="center">
-              <div className="title">
-                <h2>October 26, 2019</h2>
-              </div>
-              <div className="hr" />
             </div>
           </Col>
         </Row>

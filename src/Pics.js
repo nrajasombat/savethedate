@@ -12,6 +12,11 @@ import img8 from './images/engagement8.jpg';
 import img9 from './images/engagement9.jpg';
 import img10 from './images/engagement10.jpg';
 import img11 from './images/engagement11.jpg';
+import goldbg from './images/background/gold.png';
+import goldchevron from './images/background/GoldChevron.png';
+import trianglebg from './images/background/triangleGold.png';
+import pinkgoldbg from './images/background/pinkGold.png';
+import pinkdiamondbg from './images/background/pinkdiamond.png';
 
 const photos = [
   {
@@ -25,14 +30,29 @@ const photos = [
     height: 2,
   },
   {
+    src: goldbg,
+    width: 1,
+    height: 1,
+  },
+  {
     src: img3,
     width: 4,
     height: 3,
   },
   {
+    src: goldchevron,
+    width: 1.5,
+    height: 2,
+  },
+  {
     src: img4,
     width: 3,
     height: 4,
+  },
+  {
+    src: trianglebg,
+    width: 4,
+    height: 3,
   },
   {
     src: img5,
@@ -50,6 +70,11 @@ const photos = [
     height: 4,
   },
   {
+    src: pinkgoldbg,
+    width: 1.5,
+    height: 2,
+  },
+  {
     src: img2,
     width: 4,
     height: 3,
@@ -64,6 +89,11 @@ const photos = [
     src: img9,
     width: 4,
     height: 3,
+  },
+  {
+    src: pinkdiamondbg,
+    width: 3,
+    height: 4,
   },
   {
     src: img10,
