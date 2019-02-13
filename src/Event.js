@@ -63,20 +63,15 @@ const Event = () => {
         </Row>
         <Row>
           <Col md={6}>
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe
-                  width="600px"
-                  height="450px"
-                  id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=dallas%20palms&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                />
-                <a href="https://www.embedgooglemap.net" />
-              </div>
+            <div className="resp-container">
+              <iframe
+                class="resp-iframe"
+                src="https://maps.google.com/maps?q=dallas%20palms&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              />
             </div>
           </Col>
           <Col md={6}>
@@ -124,20 +119,15 @@ const Event = () => {
             </div>
           </Col>
           <Col md={6}>
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe
-                  width="600"
-                  height="450"
-                  id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=Kirin%20Court&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                />
-                <a href="https://www.embedgooglemap.net" />
-              </div>
+            <div className="resp-container">
+              <iframe
+                class="resp-iframe"
+                src="https://maps.google.com/maps?q=Kirin%20Court&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              />
             </div>
           </Col>
         </Row>
