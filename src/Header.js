@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="Header">
       <Navbar collapseOnSelect>
-        <Navbar.Header>
+        <Navbar.Header bsclass="header">
           <Navbar.Brand>
             <a href="#brand">Tha & Vu</a>
           </Navbar.Brand>
