@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Section.css';
-import './Attendants.css';
-import './Attendants.scss';
+import './style/Attendants.css';
+
+import './style/Attendants.scss';
 import { Col } from 'react-bootstrap';
 import Bridesmaid from './Bridesmaid';
 import Groomsmen from './Groomsmen';

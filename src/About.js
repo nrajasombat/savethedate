@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './style/About.css';
 import thapic from './images/Tha.png';
 import vupic from './images/Vu.png';
 import { Col, Image } from 'react-bootstrap';

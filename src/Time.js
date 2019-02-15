@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Row } from 'react-bootstrap';
-import './Time.scss';
+import './style/Time.scss';
 
 class Time extends Component {
   constructor(props) {
@@ -46,25 +45,23 @@ class Time extends Component {
   }
   render() {
     return (
-      <div className="countdown">
-        <Row>
-          <span className="count">
-            {this.leading0(this.state.days)}
-            <div>Days</div>
-          </span>
-          <span className="count">
-            {this.leading0(this.state.hours)}
-            <div>Hours</div>
-          </span>
-          <span className="count">
-            {this.leading0(this.state.minutes)}
-            <div>Minutes</div>
-          </span>
-          <span className="count">
-            {this.leading0(this.state.seconds)}
-            <div>Seconds</div>
-          </span>
-        </Row>
+      <div className="margin1">
+        <div className="count">
+          {this.leading0(this.state.days)}
+          <p>Days</p>
+        </div>
+        <div className="count">
+          {this.leading0(this.state.hours)}
+          <p>Hours</p>
+        </div>
+        <div className="count">
+          {this.leading0(this.state.minutes)}
+          <p>Minutes</p>
+        </div>
+        <div className="count">
+          {this.leading0(this.state.seconds)}
+          <p>Seconds</p>
+        </div>
       </div>
     );
   }

@@ -1,11 +1,12 @@
 .title-page {
-  background-image: url('./images/background/titlepage.png');
+  background: url('../images/background/titlepagebg.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   position: relative;
-  opacity: 5%;
-  transition: opacity 4s ease-out;
 
   .names-text {
     h1 {
@@ -16,6 +17,7 @@
       letter-spacing: -1px;
       font-family: 'Playlist Script', serif;
       color: #6f738a;
+      text-shadow: 2px 2px 4px #000000;
       .italic {
         font-style: italic;
         font-family: 'Apple Chancery', sans-serif;

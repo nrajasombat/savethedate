@@ -10,6 +10,7 @@ import Pics from './Pics';
 import Title from './Title';
 import Header from './Header';
 import Time from './Time';
+import WeddingDate from './WeddingDate';
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Title />
+        <WeddingDate />
         <Time deadline={this.state.deadline} />
         <About />
         <OurStory />
