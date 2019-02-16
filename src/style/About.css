@@ -66,6 +66,9 @@ ul {
   margin-left: auto;
   margin-bottom: auto;
 }
+.about {
+  padding: 100px;
+}
 
 .profile.img-circle {
   height: 300px;

@@ -18,13 +18,6 @@ class WeddingDate extends Component {
                 <div className="title">
                   <h2>October 26, 2019</h2>
                   <div className="heart" />
-                  <p>
-                    Imperdiet interdum donec eget metus auguen unc vel lorem
-                    ispuet Ibu lum orci eget, viverra elit liquam erat volut pat
-                    phas ellus ac sodales Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit uasi quidem minus id iprum
-                    omnis. Lorem ipsum dolor Phas ellus ac sodales felis tiam.
-                  </p>
                   <Time deadline={this.state.deadline} />
                 </div>
               </div>
