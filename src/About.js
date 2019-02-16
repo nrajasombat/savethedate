@@ -10,6 +10,7 @@ const About = () => {
       <div className="container">
         <div className="section-heading">
           <h2>About The Couple</h2>
+          <div className="heart" />
           <Col md={6}>
             <div className="couple">
               <Image src={vupic} circle bsClass="profile img" />
