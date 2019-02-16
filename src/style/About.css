@@ -67,29 +67,10 @@ ul {
   margin-bottom: auto;
 }
 .about {
-  padding: 100px;
+  margin-top: 70px;
 }
 
 .profile.img-circle {
   height: 300px;
   width: auto;
-}
-.heart {
-  color: pink;
-  border-top: 1px dotted;
-  text-align: center;
-  max-width: 100px;
-  margin-top: 20px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
-.heart::after {
-  color: pink;
-  content: '\f004';
-  font-family: 'Font Awesome 5 Free';
-  display: inline-block;
-  position: relative;
-  top: -20px;
-  padding: 0 10px;
-  font-size: 28px;
 }

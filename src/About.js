@@ -6,11 +6,10 @@ import { Col, Image } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <div className="container">
-      <div className="section-heading">
-        <h2>About The Couple</h2>
-        <div className="heart" />
-        <div className="about">
+    <div class="about">
+      <div className="container">
+        <div className="section-heading">
+          <h2>About The Couple</h2>
           <Col md={6}>
             <div className="couple">
               <Image src={vupic} circle bsClass="profile img" />
@@ -42,7 +41,7 @@ const About = () => {
               </a>
             </div>
           </Col>
-          <Col md={6}>
+          <Col md={6} md={6}>
             <div className="couple">
               <Image src={thapic} circle bsClass="profile img" />
             </div>
