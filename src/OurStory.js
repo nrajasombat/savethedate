@@ -56,23 +56,29 @@ const options = {
 
 const OurStory = () => {
   return (
-    <div className="container-fluid">
-      <OwlCarousel className="owl-theme" margin={10} {...options}>
-        {selfies.map(selfie => (
-          <div class="photos">
-            <a href={selfie.picture}>
-              <Image
-                src={selfie.picture}
-                rounded
-                responsive
-                bsClass="selfies img"
-              />
-              <h1>{selfie.description}</h1>
-              <p>{selfie.date}</p>
-            </a>
-          </div>
-        ))}
-      </OwlCarousel>
+    <div className="ourStory">
+      <div className="container">
+        <div className="section-heading">
+          <h2>Our Story</h2>
+          <div className="heart" />
+          <OwlCarousel className="owl-theme" margin={10} {...options}>
+            {selfies.map(selfie => (
+              <div class="photos">
+                <a href={selfie.picture}>
+                  <Image
+                    src={selfie.picture}
+                    rounded
+                    responsive
+                    bsClass="selfies img"
+                  />
+                  <h1>{selfie.description}</h1>
+                  <p>{selfie.date}</p>
+                </a>
+              </div>
+            ))}
+          </OwlCarousel>
+        </div>
+      </div>
     </div>
   );
 };
