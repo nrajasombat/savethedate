@@ -10,6 +10,7 @@ import Pics from './Pics';
 import Title from './Title';
 import Header from './Header';
 import WeddingDate from './WeddingDate';
+import Accommodations from './Accommodations';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
         <OurStory title="Our Story" />
         <Attendants title="Bridesmaid & Groomsmen" />
         <Event title="Event" />
+        <Accommodations title="Guest Accommodations" />
         <Details title="More Information" />
         <Registry title="Registry" />
         <Pics title="Gallery" />
