@@ -16,13 +16,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-
         <Title />
         <WeddingDate />
-        <About />
-        <OurStory />
+        <About title="About The Couple" />
+        <OurStory title="Our Story" />
         <Attendants />
-        <Event />
+        <Event title="Event" />
         <Details />
         <Registry />
         <Pics />

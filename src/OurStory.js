@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './style/OurStory.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -111,37 +111,39 @@ const options = {
   },
 };
 
-const OurStory = () => {
-  return (
-    <div className="ourStory">
-      <div className="container-fluid">
-        <div className="section-heading">
-          <h2>Our Story</h2>
-          <div className="heart" />
-          <Row>
-            <OwlCarousel className="owl-theme" {...options}>
-              {selfies.map(selfie => (
-                <div class="photos">
-                  <a href={selfie.picture}>
-                    <Image
-                      src={selfie.picture}
-                      rounded
-                      responsive
-                      bsClass="selfies img"
-                    />
-                    <div className="whenwemet">
-                      <span>{selfie.description}</span>
-                      <p>{selfie.date}</p>
-                    </div>
-                  </a>
-                </div>
-              ))}
-            </OwlCarousel>
-          </Row>
+class OurStory extends Component {
+  render() {
+    return (
+      <div className="ourStory">
+        <div className="container-fluid">
+          <div className="section-heading">
+            <h2>{this.props.title}</h2>
+            <div className="heart" />
+            <Row>
+              <OwlCarousel className="owl-theme" {...options}>
+                {selfies.map(selfie => (
+                  <div class="photos">
+                    <a href={selfie.picture}>
+                      <Image
+                        src={selfie.picture}
+                        rounded
+                        responsive
+                        bsClass="selfies img"
+                      />
+                      <div className="whenwemet">
+                        <span>{selfie.description}</span>
+                        <p>{selfie.date}</p>
+                      </div>
+                    </a>
+                  </div>
+                ))}
+              </OwlCarousel>
+            </Row>
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default OurStory;
