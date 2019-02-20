@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import './style/Bridesmaid.scss';
-
+import './style/Accommodations.scss';
 import renaissance from './images/hotels/renaissance.jpg';
 import courtyard from './images/hotels/courtyard.jpg';
 import residenceinn from './images/hotels/residenceinn.jpg';
-
-import { Image } from 'react-bootstrap';
+import { Image, Col, Row } from 'react-bootstrap';
 
 const hotels = [
   {
@@ -50,27 +48,31 @@ const hotels = [
 class Accommodations extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="section-heading">
-          <h2>{this.props.title}</h2>
-          <div className="heart" />
-          {hotels.map(hotel => (
-            <div class="hotelinfo">
-              <div className="margin1">
-                <Image src={hotel.picture} />
-                <h3>{hotel.name}</h3>
-                <h3>{hotel.address}</h3>
-                <h3>{hotel.phoneNumber}</h3>
-                <h6>
-                  <b>{hotel.price}</b>
-                </h6>
-                <h6>{hotel.room}</h6>
-                <h6>{hotel.option}</h6>
-                <h6>{hotel.duration}</h6>
-                <h6>{hotel.note}</h6>
-              </div>
-            </div>
-          ))}
+      <div className="accommodation">
+        <div className="container">
+          <div className="section-heading">
+            <h2>{this.props.title}</h2>
+            <div className="heart" />
+            <Row>
+              <Col md={12}>
+                {hotels.map(hotel => (
+                  <div class="hotelinfo">
+                    <Image src={hotel.picture} rounded bsClass="hotelsPic" />
+                    <h3>{hotel.name}</h3>
+                    <h4>{hotel.address}</h4>
+                    <h4>{hotel.phoneNumber}</h4>
+                    <h6>
+                      <b>{hotel.price}</b>
+                    </h6>
+                    <h6>{hotel.room}</h6>
+                    <h6>{hotel.option}</h6>
+                    <h6>{hotel.duration}</h6>
+                    <h6>{hotel.note}</h6>
+                  </div>
+                ))}
+              </Col>
+            </Row>
+          </div>
         </div>
       </div>
     );

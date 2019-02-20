@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Section.css';
 import './style/Attendants.css';
-
 import './style/Attendants.scss';
 import { Col } from 'react-bootstrap';
 import Bridesmaid from './Bridesmaid';
