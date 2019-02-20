@@ -25,6 +25,8 @@ class Attendants extends Component {
   render() {
     return (
       <div className="attendants">
+        <h2>{this.props.title}</h2>
+        <div className="heart" />
         <Col md={12}>
           <ul className="nav-tab">
             <li>

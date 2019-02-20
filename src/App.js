@@ -20,11 +20,11 @@ class App extends Component {
         <WeddingDate />
         <About title="About The Couple" />
         <OurStory title="Our Story" />
-        <Attendants />
+        <Attendants title="Bridesmaid & Groomsmen" />
         <Event title="Event" />
-        <Details />
-        <Registry />
-        <Pics />
+        <Details title="More Information" />
+        <Registry title="Registry" />
+        <Pics title="Gallery" />
       </div>
     );
   }

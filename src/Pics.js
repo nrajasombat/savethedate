@@ -137,7 +137,7 @@ class Pics extends Component {
     return (
       <div className="container">
         <div className="section-heading">
-          <h2>Gallery</h2>
+          <h2>{this.props.title}</h2>
           <div className="heart" />
           <Gallery photos={photos} onClick={this.openLightbox} />
           <Lightbox
