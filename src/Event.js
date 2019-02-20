@@ -21,11 +21,7 @@ class Event extends Component {
                 <div className="right">
                   <div className="title">Celebrate With Us</div>
                   <p>
-                    Imperdiet interdum donec eget metus auguen unc vel lorem
-                    ispuet Ibu lum orci eget, viverra elit liquam erat volut pat
-                    phas ellus ac sodales Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit uasi quidem minus id iprum
-                    omnis. Lorem ipsum dolor Phas ellus ac sodales felis tiam.
+                    Saturday, September 2, 2017 Time: 3:00 PM Attire: Formal
                   </p>
                   <p>
                     Imperdiet interdum donec eget metus auguen unc vel lorem
@@ -82,20 +78,10 @@ class Event extends Component {
                 <div className="margin1">
                   <div className="right">
                     <div className="title">Ceremony</div>
-                    <p>
-                      Imperdiet interdum donec eget metus auguen unc vel lorem
-                      ispuet Ibu lum orci eget, viverra elit liquam erat volut
-                      pat phas ellus ac sodales Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit uasi quidem minus id iprum
-                      omnis. Lorem ipsum dolor Phas ellus ac sodales felis tiam.
-                    </p>
-                    <p>
-                      Imperdiet interdum donec eget metus auguen unc vel lorem
-                      ispuet Ibu lum orci eget, viverra elit liquam erat volut
-                      pat phas ellus ac sodales Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit uasi quidem minus id iprum
-                      omnis. Lorem ipsum dolor Phas ellus ac sodales felis tiam.
-                    </p>
+                    <h2>October 26, 2019</h2>
+                    <h6> Dallas Palms</h6>
+                    <h6> Time: 3:00 PM</h6>
+                    <h6>2424 Marsh Ln, Carrollton, TX 75006</h6>
                   </div>
                 </div>
               </Col>
@@ -105,20 +91,10 @@ class Event extends Component {
                 <div className="margin1">
                   <div className="right">
                     <div className="title">Reception</div>
-                    <p>
-                      Imperdiet interdum donec eget metus auguen unc vel lorem
-                      ispuet Ibu lum orci eget, viverra elit liquam erat volut
-                      pat phas ellus ac sodales Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit uasi quidem minus id iprum
-                      omnis. Lorem ipsum dolor Phas ellus ac sodales felis tiam.
-                    </p>
-                    <p>
-                      Imperdiet interdum donec eget metus auguen unc vel lorem
-                      ispuet Ibu lum orci eget, viverra elit liquam erat volut
-                      pat phas ellus ac sodales Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit uasi quidem minus id iprum
-                      omnis. Lorem ipsum dolor Phas ellus ac sodales felis tiam.
-                    </p>
+                    <h2>October 26, 2019</h2>
+                    <h6> Kirin Court</h6>
+                    <h6> Time: 6:00 PM - Midnight</h6>
+                    <h6>221 W Polk St #200, Richardson, TX 75081</h6>
                   </div>
                 </div>
               </Col>
