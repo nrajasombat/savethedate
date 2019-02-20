@@ -93,7 +93,7 @@ const options = {
       stagePadding: 150,
     },
     1800: {
-      items: 3,
+      items: 4,
       stagePadding: 150,
     },
     2000: {
