@@ -1,5 +1,7 @@
 .about {
   background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .img-responsive {
@@ -66,9 +68,6 @@ ul {
   width: 100%;
   text-align: center;
 }
-.about {
-  margin-top: 70px;
-}
 
 .profile.img-circle {
   height: 300px;
@@ -92,4 +91,7 @@ ul {
   top: -20px;
   padding: 0 10px;
   font-size: 28px;
+}
+.social-media smaller {
+  padding-bottom: 100px;
 }
