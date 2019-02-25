@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import About from './Components/About';
-import Attendants from './Attendants';
+import Attendants from './Components/Attendants';
 import Event from './Event';
 import OurStory from './Components/OurStory';
 import Details from './Details';
