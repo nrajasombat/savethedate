@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
-import './Event.scss';
-import celebrate from './images/Celebrate.png';
+import celebrate from '../images/Celebrate.png';
+import '../Event.scss';
 
 const Event = ({ title }) => {
   return (
