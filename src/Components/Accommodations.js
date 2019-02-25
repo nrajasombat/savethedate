@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './style/Accommodations.scss';
-import renaissance from './images/hotels/renaissance.jpg';
-import courtyard from './images/hotels/courtyard.jpg';
-import residenceinn from './images/hotels/residenceinn.jpg';
+import React from 'react';
+import '../style/Accommodations.scss';
+import renaissance from '../images/hotels/renaissance.jpg';
+import courtyard from '../images/hotels/courtyard.jpg';
+import residenceinn from '../images/hotels/residenceinn.jpg';
 import { Image, Col, Row } from 'react-bootstrap';
 
 const hotels = [
@@ -45,46 +45,40 @@ const hotels = [
   },
 ];
 
-class Accommodations extends Component {
-  render() {
-    return (
-      <div className="accommodation">
-        <section id="accommodation" className="watercolor">
-          <div className="container">
-            <div className="section-heading">
-              <h2>{this.props.title}</h2>
-              <div className="heart" />
-              <Row>
-                <Col md={12}>
-                  <div className="margin1">
-                    {hotels.map(hotel => (
-                      <div class="hotelinfo">
-                        <Image
-                          src={hotel.picture}
-                          rounded
-                          bsClass="hotelsPic"
-                        />
-                        <h3>{hotel.name}</h3>
-                        <h4>{hotel.address}</h4>
-                        <h4>{hotel.phoneNumber}</h4>
-                        <h6>
-                          <b>{hotel.price}</b>
-                        </h6>
-                        <h6>{hotel.room}</h6>
-                        <h6>{hotel.option}</h6>
-                        <h6>{hotel.duration}</h6>
-                        <h6>{hotel.note}</h6>
-                      </div>
-                    ))}
-                  </div>
-                </Col>
-              </Row>
-            </div>
+const Accommodations = ({ title }) => {
+  return (
+    <div className="accommodation">
+      <section id="accommodation" className="watercolor">
+        <div className="container">
+          <div className="section-heading">
+            <h2>{title}</h2>
+            <div className="heart" />
+            <Row>
+              <Col md={12}>
+                <div className="margin1">
+                  {hotels.map(hotel => (
+                    <div class="hotelinfo">
+                      <Image src={hotel.picture} rounded bsClass="hotelsPic" />
+                      <h3>{hotel.name}</h3>
+                      <h4>{hotel.address}</h4>
+                      <h4>{hotel.phoneNumber}</h4>
+                      <h6>
+                        <b>{hotel.price}</b>
+                      </h6>
+                      <h6>{hotel.room}</h6>
+                      <h6>{hotel.option}</h6>
+                      <h6>{hotel.duration}</h6>
+                      <h6>{hotel.note}</h6>
+                    </div>
+                  ))}
+                </div>
+              </Col>
+            </Row>
           </div>
-        </section>
-      </div>
-    );
-  }
-}
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default Accommodations;

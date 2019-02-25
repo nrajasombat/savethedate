@@ -10,7 +10,7 @@ import Pics from './Pics';
 import Title from './Title';
 import Header from './Header';
 import WeddingDate from './WeddingDate';
-import Accommodations from './Accommodations';
+import Accommodations from './Components/Accommodations';
 
 class App extends Component {
   render() {
