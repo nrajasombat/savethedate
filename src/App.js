@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import About from './About';
+import About from './Components/About';
 import Attendants from './Attendants';
 import Event from './Event';
 import OurStory from './OurStory';

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './style/About.css';
-import thapic from './images/Tha.png';
-import vupic from './images/Vu.png';
+import React from 'react';
+import '../style/About.css';
+import thapic from '../images/couple/Tha.png';
+import vupic from '../images/couple/Vu.png';
 import { Col, Image } from 'react-bootstrap';
 
 const About = ({ title }) => {

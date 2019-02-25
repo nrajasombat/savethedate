@@ -111,39 +111,37 @@ const options = {
   },
 };
 
-class OurStory extends Component {
-  render() {
-    return (
-      <div className="ourStory">
-        <div className="container-fluid">
-          <div className="section-heading">
-            <h2>{this.props.title}</h2>
-            <div className="heart" />
-            <Row>
-              <OwlCarousel className="owl-theme" {...options}>
-                {selfies.map(selfie => (
-                  <div class="photos">
-                    <a href={selfie.picture}>
-                      <Image
-                        src={selfie.picture}
-                        rounded
-                        responsive
-                        bsClass="selfies img"
-                      />
-                      <div className="whenwemet">
-                        <span>{selfie.description}</span>
-                        <p>{selfie.date}</p>
-                      </div>
-                    </a>
-                  </div>
-                ))}
-              </OwlCarousel>
-            </Row>
-          </div>
+const OurStory = ({ title }) => {
+  return (
+    <div className="ourStory">
+      <div className="container-fluid">
+        <div className="section-heading">
+          <h2>{title}</h2>
+          <div className="heart" />
+          <Row>
+            <OwlCarousel className="owl-theme" {...options}>
+              {selfies.map(selfie => (
+                <div class="photos">
+                  <a href={selfie.picture}>
+                    <Image
+                      src={selfie.picture}
+                      rounded
+                      responsive
+                      bsClass="selfies img"
+                    />
+                    <div className="whenwemet">
+                      <span>{selfie.description}</span>
+                      <p>{selfie.date}</p>
+                    </div>
+                  </a>
+                </div>
+              ))}
+            </OwlCarousel>
+          </Row>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default OurStory;
