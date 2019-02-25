@@ -3,7 +3,7 @@ import './App.css';
 import About from './Components/About';
 import Attendants from './Attendants';
 import Event from './Event';
-import OurStory from './OurStory';
+import OurStory from './Components/OurStory';
 import Details from './Details';
 import Registry from './Registry';
 import Pics from './Pics';

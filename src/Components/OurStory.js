@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './style/OurStory.scss';
+import '../style/OurStory.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import pic1 from './images/firstdate.png';
-import pic2 from './images/firstParty.png';
-import pic3 from './images/brianwedding.png';
-import pic4 from './images/sefwedding.png';
-import pic5 from './images/xmas2016.png';
-import pic6 from './images/calitrip.png';
+import pic1 from '../images/firstdate.png';
+import pic2 from '../images/firstParty.png';
+import pic3 from '../images/brianwedding.png';
+import pic4 from '../images/sefwedding.png';
+import pic5 from '../images/xmas2016.png';
+import pic6 from '../images/calitrip.png';
 import { Image, Row } from 'react-bootstrap';
 
 const selfies = [
