@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-import './style/Title.scss';
+import '../style/Title.scss';
 
 const Title = () => {
   return (

@@ -7,9 +7,9 @@ import OurStory from './Components/OurStory';
 import Details from './Components/Details';
 import Registry from './Components/Registry';
 import Pics from './SmartComponents/Pics';
-import Title from './Title';
+import Title from './Components/Title';
 import Header from './Header';
-import WeddingDate from './WeddingDate';
+import WeddingDate from './SmartComponents/WeddingDate';
 import Accommodations from './Components/Accommodations';
 
 class App extends Component {
