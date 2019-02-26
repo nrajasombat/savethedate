@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
-import img1 from './images/engagement1.png';
-import img2 from './images/engagement2.png';
-import img3 from './images/engagment3.jpg';
-import img4 from './images/engagment4.png';
-import img5 from './images/engagement5.jpg';
-import img6 from './images/engagement6.jpg';
-import img7 from './images/engagement7.jpg';
-import img8 from './images/engagement8.jpg';
-import img9 from './images/engagement9.jpg';
-import img10 from './images/engagement10.jpg';
-import img11 from './images/engagement11.jpg';
-import goldbg from './images/background/gold.png';
-import goldchevron from './images/background/GoldChevron.png';
-import trianglebg from './images/background/triangleGold.png';
-import pinkgoldbg from './images/background/pinkGold.png';
-import pinkdiamondbg from './images/background/pinkdiamond.png';
-import './style/Pics.scss';
+import img1 from '../images/engagement1.png';
+import img2 from '../images/engagement2.png';
+import img3 from '../images/engagment3.jpg';
+import img4 from '../images/engagment4.png';
+import img5 from '../images/engagement5.jpg';
+import img6 from '../images/engagement6.jpg';
+import img7 from '../images/engagement7.jpg';
+import img8 from '../images/engagement8.jpg';
+import img9 from '../images/engagement9.jpg';
+import img10 from '../images/engagement10.jpg';
+import img11 from '../images/engagement11.jpg';
+import goldbg from '../images/background/gold.png';
+import goldchevron from '../images/background/GoldChevron.png';
+import trianglebg from '../images/background/triangleGold.png';
+import pinkgoldbg from '../images/background/pinkGold.png';
+import pinkdiamondbg from '../images/background/pinkdiamond.png';
+import '../style/Pics.scss';
 
 const photos = [
   {

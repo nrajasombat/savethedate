@@ -6,7 +6,7 @@ import Event from './Components/Event';
 import OurStory from './Components/OurStory';
 import Details from './Components/Details';
 import Registry from './Components/Registry';
-import Pics from './Pics';
+import Pics from './SmartComponents/Pics';
 import Title from './Title';
 import Header from './Header';
 import WeddingDate from './WeddingDate';
