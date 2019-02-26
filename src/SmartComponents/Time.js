@@ -44,22 +44,24 @@ class Time extends Component {
   }
   render() {
     return (
-      <div className="margin1">
-        <div className="count">
-          {this.leading0(this.state.days)}
-          <p>Days</p>
-        </div>
-        <div className="count">
-          {this.leading0(this.state.hours)}
-          <p>Hours</p>
-        </div>
-        <div className="count">
-          {this.leading0(this.state.minutes)}
-          <p>Minutes</p>
-        </div>
-        <div className="count">
-          {this.leading0(this.state.seconds)}
-          <p>Seconds</p>
+      <div className="time">
+        <div className="margin1">
+          <div className="count">
+            {this.leading0(this.state.days)}
+            <p>Days</p>
+          </div>
+          <div className="count">
+            {this.leading0(this.state.hours)}
+            <p>Hours</p>
+          </div>
+          <div className="count">
+            {this.leading0(this.state.minutes)}
+            <p>Minutes</p>
+          </div>
+          <div className="count">
+            {this.leading0(this.state.seconds)}
+            <p>Seconds</p>
+          </div>
         </div>
       </div>
     );
