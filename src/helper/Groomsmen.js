@@ -1,13 +1,13 @@
 import React from 'react';
-import './style/Groomsmen.scss';
+import '../style/Groomsmen.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import azpic from './images/AZ.png';
-import victorpic from './images/Victor.png';
-import dillonpic from './images/Dillon.png';
-import alanpic from './images/Alan.png';
-import robertpic from './images/Robert.png';
+import azpic from '../images/AZ.png';
+import victorpic from '../images/Victor.png';
+import dillonpic from '../images/Dillon.png';
+import alanpic from '../images/Alan.png';
+import robertpic from '../images/Robert.png';
 import { Image } from 'react-bootstrap';
 
 const groomsmen = [

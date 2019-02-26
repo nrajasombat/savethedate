@@ -3,7 +3,7 @@ import '../Section.css';
 import '../style/Attendants.scss';
 import { Col } from 'react-bootstrap';
 import Bridesmaid from '../helper/Bridesmaid';
-import Groomsmen from '../Groomsmen';
+import Groomsmen from '../helper/Groomsmen';
 
 class Attendants extends Component {
   constructor(props) {
