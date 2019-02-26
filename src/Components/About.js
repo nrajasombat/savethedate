@@ -25,7 +25,7 @@ const About = ({ title }) => {
               ellus ac sodales felis tiam.
             </p>
           </Col>
-          <Col md={6} md={6}>
+          <Col md={6}>
             <div className="couple">
               <Image src={thapic} circle bsClass="profile img" />
             </div>

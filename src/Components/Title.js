@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 import '../style/Title.scss';
+import WeddingDate from '../SmartComponents/WeddingDate';
 
 const Title = () => {
   return (
@@ -17,6 +18,7 @@ const Title = () => {
           </div>
         </Col>
       </div>
+      <WeddingDate />
     </div>
   );
 };

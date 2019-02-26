@@ -68,6 +68,7 @@ const Event = ({ title }) => {
                   scrolling="no"
                   marginheight="0"
                   marginwidth="0"
+                  title="left"
                 />
               </div>
             </Col>
@@ -104,6 +105,7 @@ const Event = ({ title }) => {
                   scrolling="no"
                   marginheight="0"
                   marginwidth="0"
+                  title="right"
                 />
               </div>
             </Col>

@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #e5deed;
 }
 .container {
   padding-right: 15px;
@@ -8,4 +7,14 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: auto;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: 'Lora', serif;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #6f738a;
 }

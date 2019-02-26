@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 const Header = () => {
@@ -8,31 +9,31 @@ const Header = () => {
       <Navbar collapseOnSelect>
         <Navbar.Header bsclass="header">
           <Navbar.Brand>
-            <a href="#brand">Tha & Vu</a>
+            <Link to="/">Tha & Vu</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="#">
-              About
+            <NavItem eventKey={1}>
+              <Link to="/about">About</Link>
             </NavItem>
-            <NavItem eventKey={2} href="#">
-              Our Story
+            <NavItem eventKey={2}>
+              <Link to="/ourstory">Our Story</Link>
             </NavItem>
-            <NavItem eventKey={3} href="#">
-              Attendants
+            <NavItem eventKey={3}>
+              <Link to="/attendants">Attendants</Link>
             </NavItem>
           </Nav>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#">
-              The Event
+            <NavItem eventKey={1}>
+              <Link to="/event">Event</Link>
             </NavItem>
-            <NavItem eventKey={2} href="#">
-              Registry
+            <NavItem eventKey={2}>
+              <Link to="/registry">Registry</Link>
             </NavItem>
-            <NavItem eventKey={3} href="#">
-              Gallery
+            <NavItem eventKey={3}>
+              <Link to="/gallery">Gallery</Link>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
