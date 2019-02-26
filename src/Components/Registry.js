@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import './style/Registry.scss';
+import '../style/Registry.scss';
 
 const Registry = ({ title }) => {
   return (
