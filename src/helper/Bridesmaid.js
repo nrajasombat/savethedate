@@ -3,11 +3,11 @@ import '../style/Bridesmaid.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import aninapic from '../images/anina.png';
-import neenapic from '../images/Neena.png';
-import lisapic from '../images/Lisa.png';
-import jennypic from '../images/Jenny.png';
-import ashleypic from '../images/Ashl.png';
+import aninapic from '../images/bridesmaids/anina.png';
+import neenapic from '../images/bridesmaids/Neena.png';
+import lisapic from '../images/bridesmaids/Lisa.png';
+import jennypic from '../images/bridesmaids/Jenny.png';
+import ashleypic from '../images/bridesmaids/Ashl.png';
 import { Image } from 'react-bootstrap';
 
 const bridesmaids = [
@@ -19,7 +19,7 @@ const bridesmaids = [
   {
     picture: aninapic,
     name: 'Anina Rasaphangthong',
-    job: 'Bridesmaid',
+    job: 'Matron of Honor',
   },
   {
     picture: neenapic,
