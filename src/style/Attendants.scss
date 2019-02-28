@@ -45,5 +45,35 @@
       min-height: 50px;
       margin-bottom: 50px;
     }
+    .maids {
+      background-color: #d884b9;
+      position: relative;
+      font-weight: 800;
+      border-radius: 0px;
+      display: block;
+      min-height: 50px;
+      border: 0;
+      letter-spacing: 1px;
+      outline: 2px solid;
+      padding: 15px 35px;
+      color: black;
+      font-size: 22px;
+      transition: all 0.2s ease-in-out;
+    }
+    .groomsman {
+      background-color: #6f738a;
+      position: relative;
+      font-weight: 800;
+      border-radius: 0px;
+      display: block;
+      min-height: 50px;
+      border: 0;
+      letter-spacing: 1px;
+      outline: 2px solid;
+      padding: 15px 35px;
+      color: black;
+      font-size: 22px;
+      transition: all 0.2s ease-in-out;
+    }
   }
 }

@@ -26,10 +26,10 @@ class Attendants extends Component {
             <ul className="nav-tab">
               <div className="attend-btn">
                 <a href="#maid" onClick={this.toggle.bind(this, 1)}>
-                  <Button>Bridesmaid</Button>
+                  <Button className="maids">Bridesmaid</Button>
                 </a>
                 <a href="#groomsman" onClick={this.toggle.bind(this, 2)}>
-                  <Button>Groomsmen</Button>
+                  <Button className="groomsman">Groomsmen</Button>
                 </a>
                 <div
                   className={`collapsible ${
