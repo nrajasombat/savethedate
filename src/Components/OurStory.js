@@ -3,44 +3,44 @@ import '../style/OurStory.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import pic1 from '../images/firstdate.png';
-import pic2 from '../images/firstParty.png';
-import pic3 from '../images/brianwedding.png';
-import pic4 from '../images/sefwedding.png';
-import pic5 from '../images/xmas2016.png';
-import pic6 from '../images/calitrip.png';
+import pic1 from '../images/ourstory/firstdate.png';
+import pic2 from '../images/ourstory/firstParty.png';
+import pic3 from '../images/ourstory/brianwedding.png';
+import pic4 from '../images/ourstory/sefwedding.png';
+import pic5 from '../images/ourstory/xmas2016.png';
+import pic6 from '../images/ourstory/calitrip.png';
 import { Image, Row } from 'react-bootstrap';
 
 const selfies = [
   {
     picture: pic1,
     description: '2012',
-    date: 'Maid of Honor',
+    date: 'First Selfie Together',
   },
   {
     picture: pic2,
     description: '2013',
-    date: 'Maid of Honor',
+    date: 'First Date',
   },
   {
     picture: pic3,
     description: '2013',
-    date: 'Maid of Honor',
+    date: 'First Party',
   },
   {
     picture: pic4,
     description: '2014',
-    date: 'Maid of Honor',
+    date: 'First Wedding ',
   },
   {
     picture: pic5,
     description: '2015',
-    date: 'Maid of Honor',
+    date: 'Christmas 2015',
   },
   {
     picture: pic6,
     description: '2015',
-    date: 'Maid of Honor',
+    date: 'Our First Trip to California Together',
   },
 ];
 const options = {
