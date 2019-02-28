@@ -3,11 +3,12 @@ import '../style/Groomsmen.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import azpic from '../images/AZ.png';
-import victorpic from '../images/Victor.png';
-import dillonpic from '../images/Dillon.png';
-import alanpic from '../images/Alan.png';
-import robertpic from '../images/Robert.png';
+import azpic from '../images/groomsmen/AZ.png';
+import victorpic from '../images/groomsmen/Victor.png';
+import dillonpic from '../images/groomsmen/Dillon.png';
+import alanpic from '../images/groomsmen/Alan.png';
+import robertpic from '../images/groomsmen/Robert.png';
+import aaronpic from '../images/groomsmen/aaron.png';
 import { Image } from 'react-bootstrap';
 
 const groomsmen = [
@@ -32,13 +33,13 @@ const groomsmen = [
     job: 'Officiant',
   },
   {
-    picture: dillonpic,
-    name: 'Dillon Manokoune',
+    picture: aaronpic,
+    name: 'Aaron Belcher',
     job: 'Groomsmen',
   },
   {
     picture: dillonpic,
-    name: 'Aaron Belcher',
+    name: 'Dillon Manokoune',
     job: 'Groomsmen',
   },
 ];
