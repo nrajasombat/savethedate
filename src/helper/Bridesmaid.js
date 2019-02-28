@@ -43,15 +43,16 @@ const options = {
   loop: 'true',
   responsive: {
     0: { items: 1 },
+    400: { items: 1 },
     600: { items: 2 },
-    900: { items: 3 },
+    1000: { items: 3 },
   },
 };
 
 const Bridesmaid = () => {
   return (
     <div className="container">
-      <OwlCarousel className="owl-theme" margin={10} {...options}>
+      <OwlCarousel className="owl-theme" {...options}>
         {bridesmaids.map(bridesmaid => (
           <div class="bridalparty">
             <Image src={bridesmaid.picture} circle bsClass="maid img" />

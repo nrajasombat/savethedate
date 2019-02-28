@@ -14,7 +14,7 @@ const groomsmen = [
   {
     picture: robertpic,
     name: 'Robert Simpson',
-    job: 'Best Man',
+    job: 'Groomsmen',
   },
   {
     picture: victorpic,
@@ -36,6 +36,11 @@ const groomsmen = [
     name: 'Dillon Manokoune',
     job: 'Groomsmen',
   },
+  {
+    picture: dillonpic,
+    name: 'Aaron Belcher',
+    job: 'Groomsmen',
+  },
 ];
 const options = {
   items: 3,
@@ -43,8 +48,9 @@ const options = {
   loop: 'true',
   responsive: {
     0: { items: 1 },
+    400: { items: 1 },
     600: { items: 2 },
-    900: { items: 3 },
+    1000: { items: 3 },
   },
 };
 

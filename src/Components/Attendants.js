@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
 import '../style/Attendants.scss';
-import { Col } from 'react-bootstrap';
+import { Col, Button } from 'react-bootstrap';
 import Bridesmaid from '../helper/Bridesmaid';
 import Groomsmen from '../helper/Groomsmen';
 
 class Attendants extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       current: 0,
     };
   }
-
   toggle(index) {
     this.setState({
       current: index,
     });
   }
-
   render() {
     return (
       <div className="attendants">
@@ -27,9 +24,12 @@ class Attendants extends Component {
           <div className="heart" />
           <Col md={12}>
             <ul className="nav-tab">
-              <li>
+              <div className="attend-btn">
                 <a href="#maid" onClick={this.toggle.bind(this, 1)}>
-                  Bridesmaid
+                  <Button>Bridesmaid</Button>
+                </a>
+                <a href="#groomsman" onClick={this.toggle.bind(this, 2)}>
+                  <Button>Groomsmen</Button>
                 </a>
                 <div
                   className={`collapsible ${
@@ -38,19 +38,15 @@ class Attendants extends Component {
                 >
                   <Bridesmaid />
                 </div>
-              </li>
-              <li>
-                <a href="#groomsman" onClick={this.toggle.bind(this, 2)}>
-                  Groomsmen
-                </a>
-                <div
-                  className={`collapsible ${
-                    this.state.current === 2 ? 'open ' : ''
-                  }`}
-                >
-                  <Groomsmen />
-                </div>
-              </li>
+              </div>
+
+              <div
+                className={`collapsible ${
+                  this.state.current === 2 ? 'open ' : ''
+                }`}
+              >
+                <Groomsmen />
+              </div>
             </ul>
           </Col>
         </div>

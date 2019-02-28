@@ -24,15 +24,21 @@ const Header = () => {
             <NavItem eventKey={3}>
               <Link to="/attendants">Attendants</Link>
             </NavItem>
+            <NavItem eventKey={4}>
+              <Link to="/event">Event</Link>
+            </NavItem>
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1}>
-              <Link to="/event">Event</Link>
+              <Link to="/accommodations">Guest Accommodations</Link>
             </NavItem>
             <NavItem eventKey={2}>
-              <Link to="/registry">Registry</Link>
+              <Link to="/detail">More Info</Link>
             </NavItem>
             <NavItem eventKey={3}>
+              <Link to="/registry">Registry</Link>
+            </NavItem>
+            <NavItem eventKey={4}>
               <Link to="/gallery">Gallery</Link>
             </NavItem>
           </Nav>
