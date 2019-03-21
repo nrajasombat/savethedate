@@ -1,6 +1,7 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Image } from 'react-bootstrap';
 import '../style/Details.scss';
+import parking from '../images/details/parking.png';
 
 const Details = ({ title }) => {
   return (
@@ -10,7 +11,10 @@ const Details = ({ title }) => {
         <Row>
           <Col md={12}>
             <div className="right">
-              <div className="title">Details</div>
+              <div className="title" />
+              <h1>Additional Parking to Reception Venue</h1>
+              <Image src={parking} />
+              <h1>Wedding Reception: Vietnamese/Chinese Style</h1>
               <p>
                 Our reception may be a little different from what you are used
                 to. Here are some things that may be unfamiliar:

@@ -30,28 +30,20 @@ const photos = [
     width: 1.5,
     height: 2,
   },
-  {
-    src: goldbg,
-    width: 1,
-    height: 1,
-  },
+
   {
     src: img3,
     width: 4,
     height: 3,
   },
   {
-    src: goldchevron,
+    src: img4,
     width: 1.5,
     height: 2,
   },
+
   {
-    src: img4,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: trianglebg,
+    src: img6,
     width: 4,
     height: 3,
   },
@@ -61,7 +53,7 @@ const photos = [
     height: 4,
   },
   {
-    src: img6,
+    src: img2,
     width: 4,
     height: 3,
   },
@@ -70,13 +62,9 @@ const photos = [
     width: 3,
     height: 4,
   },
+
   {
-    src: pinkgoldbg,
-    width: 1.5,
-    height: 2,
-  },
-  {
-    src: img2,
+    src: img9,
     width: 4,
     height: 3,
   },
@@ -87,19 +75,14 @@ const photos = [
     height: 2,
   },
   {
-    src: img9,
-    width: 4,
-    height: 3,
-  },
-  {
-    src: pinkdiamondbg,
-    width: 3,
-    height: 4,
-  },
-  {
     src: img10,
     width: 4,
     height: 3,
+  },
+  {
+    src: img7,
+    width: 3,
+    height: 4,
   },
 ];
 
