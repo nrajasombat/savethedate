@@ -10,6 +10,8 @@ import pic4 from '../images/ourstory/sefwedding.png';
 import pic5 from '../images/ourstory/xmas2016.png';
 import pic6 from '../images/ourstory/calitrip.png';
 import { Image, Row } from 'react-bootstrap';
+import anime from '../images/ourstory/animation.gif';
+import pic7 from '../images/ourstory/ring.jpg';
 
 const selfies = [
   {
@@ -33,6 +35,11 @@ const selfies = [
     date: 'First Wedding ',
   },
   {
+    picture: anime,
+    description: '2014',
+    date: 'Our Trip to Arkansas',
+  },
+  {
     picture: pic5,
     description: '2015',
     date: 'Christmas 2015',
@@ -41,6 +48,11 @@ const selfies = [
     picture: pic6,
     description: '2015',
     date: 'Our First Trip to California Together',
+  },
+  {
+    picture: pic7,
+    description: 'September 17, 2016',
+    date: 'He Proposed',
   },
 ];
 const options = {

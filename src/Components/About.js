@@ -16,14 +16,7 @@ const About = ({ title }) => {
               <Image src={vupic} circle bsClass="profile img" />
             </div>
             <h4 class="text-ornament">Vu</h4>
-            <h6 class="main-subheader">Chubby Wiener</h6>
-            <p>
-              Imperdiet interdum donec eget metus auguen unc vel lorem ispuet
-              Ibu lum orci eget, viverra elit liquam erat volut pat phas ellus
-              ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit uasi quidem minus id iprum omnis. Lorem ipsum dolor Phas
-              ellus ac sodales felis tiam.
-            </p>
+            <h6 class="main-subheader">Nguyen</h6>
           </Col>
           <Col md={6}>
             <div className="couple">
@@ -31,14 +24,7 @@ const About = ({ title }) => {
             </div>
 
             <h4 class="text-ornament">Tha</h4>
-            <h6 class="main-subheader">Badass Woman</h6>
-            <p>
-              Imperdiet interdum donec eget metus auguen unc vel lorem ispuet
-              Ibu lum orci eget, viverra elit liquam erat volut pat phas ellus
-              ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit uasi quidem minus id iprum omnis. Lorem ipsum dolor Phas
-              ellus ac sodales felis tiam.
-            </p>
+            <h6 class="main-subheader">Rajasombat</h6>
           </Col>
         </div>
       </div>

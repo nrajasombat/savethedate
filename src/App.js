@@ -21,7 +21,7 @@ class App extends Component {
           <Route exact path="/" component={Title} />
           <Route
             path="/about"
-            component={() => <About title="About The Couple" />}
+            component={() => <About title="It's A Match!" />}
           />
           <Route
             path="/ourstory"
