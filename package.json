@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "eslint": "eslint --fix ."
+    "eslint": "eslint --fix .",
+    "prod:start": "npm run build && npx http-server -p 8080 build"
   },
   "eslintConfig": {
     "extends": "react-app"
