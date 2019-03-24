@@ -54,7 +54,7 @@ const Bridesmaid = () => {
     <div className="container">
       <OwlCarousel className="owl-theme" {...options}>
         {bridesmaids.map(bridesmaid => (
-          <div class="bridalparty">
+          <div className="bridalparty">
             <Image src={bridesmaid.picture} circle bsClass="maid img" />
             <div className="info">{bridesmaid.name}</div>
             <div className="description">{bridesmaid.job}</div>

@@ -10,7 +10,7 @@ class WeddingDate extends Component {
   }
   render() {
     return (
-      <div class="date-page">
+      <div className="date-page">
         <div className="container">
           <Row>
             <Col md={12}>

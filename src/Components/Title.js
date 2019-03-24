@@ -5,7 +5,7 @@ import WeddingDate from '../SmartComponents/WeddingDate';
 
 const Title = () => {
   return (
-    <div class="title-page">
+    <div className="title-page">
       <div className="container">
         <Col md={12}>
           <div className="names-text">
