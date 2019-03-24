@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
 import About from './Components/About';
 import Attendants from './Components/Attendants';
@@ -15,7 +15,7 @@ import Accommodations from './Components/Accommodations';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Header />
           <Route exact path="/" component={Title} />
@@ -46,7 +46,7 @@ class App extends Component {
           />
           <Route path="/gallery" component={() => <Pics title="Gallery" />} />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
