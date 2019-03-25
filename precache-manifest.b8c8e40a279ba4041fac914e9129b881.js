@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/animation.f5a01f34.gif"
   },
   {
-    "revision": "98b188f2d4eaaeb86ac5",
-    "url": "/savethedate/static/css/main.0a805d48.chunk.css"
+    "revision": "10f30f6d7eedce19a8e2",
+    "url": "/savethedate/static/css/main.4a50123f.chunk.css"
   },
   {
     "revision": "26b29392a2f0a638f2658fc9a8fce073",
     "url": "/savethedate/static/media/titlepagebg.26b29392.jpg"
   },
   {
-    "revision": "4bf049da0dd3acd3cd02",
-    "url": "/savethedate/static/js/1.4bf049da.chunk.js"
+    "revision": "22c88b5c17d8e3632ab6",
+    "url": "/savethedate/static/js/1.22c88b5c.chunk.js"
   },
   {
     "revision": "f0ccc8dceb8667f91cf4",
@@ -108,16 +108,12 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/calitrip.7c515a19.png"
   },
   {
-    "revision": "98b188f2d4eaaeb86ac5",
-    "url": "/savethedate/static/js/main.98b188f2.chunk.js"
+    "revision": "10f30f6d7eedce19a8e2",
+    "url": "/savethedate/static/js/main.10f30f6d.chunk.js"
   },
   {
     "revision": "fd4b89192c62e102de5a2be3d1de7d36",
     "url": "/savethedate/static/media/ring.fd4b8919.jpg"
-  },
-  {
-    "revision": "1f326938db66d70f896328988497c892",
-    "url": "/savethedate/static/media/jack.1f326938.jpg"
   },
   {
     "revision": "486e6ba9489073bc021945c2f1cabba9",
@@ -188,6 +184,10 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/titlebg.cb900940.png"
   },
   {
+    "revision": "1f326938db66d70f896328988497c892",
+    "url": "/savethedate/static/media/jack.1f326938.jpg"
+  },
+  {
     "revision": "24ef7be472b974096b193e5838f97dc8",
     "url": "/savethedate/static/media/gold.24ef7be4.png"
   },
@@ -208,11 +208,11 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/pinkdiamond.62b9c7ad.png"
   },
   {
-    "revision": "4bf049da0dd3acd3cd02",
-    "url": "/savethedate/static/css/1.b1cae470.chunk.css"
+    "revision": "22c88b5c17d8e3632ab6",
+    "url": "/savethedate/static/css/1.dd928993.chunk.css"
   },
   {
-    "revision": "55d581bc1fe2738d5b3e655b9b458973",
+    "revision": "232382e1270ffa40c48925bcca5a0d8c",
     "url": "/savethedate/index.html"
   }
 ];
