@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/calitrip.7c515a19.png"
   },
   {
-    "revision": "8ed85e1d890e48a66843",
+    "revision": "6409656898d8094124d7",
     "url": "/savethedate/static/css/main.fde79435.chunk.css"
   },
   {
@@ -104,8 +104,8 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/xmas2016.b19a3b72.png"
   },
   {
-    "revision": "8ed85e1d890e48a66843",
-    "url": "/savethedate/static/js/main.8ed85e1d.chunk.js"
+    "revision": "6409656898d8094124d7",
+    "url": "/savethedate/static/js/main.64096568.chunk.js"
   },
   {
     "revision": "f5a01f3419f5758df46a6cacb49516d4",
@@ -204,7 +204,7 @@ self.__precacheManifest = [
     "url": "/savethedate/static/css/1.408cd34e.chunk.css"
   },
   {
-    "revision": "7c0f9fd12dfeb1207cbe89f30a4a7cf6",
+    "revision": "d38b4c1c59c9309dd286a8aaed83ab5b",
     "url": "/savethedate/index.html"
   }
 ];
