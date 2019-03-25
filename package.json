@@ -1,7 +1,7 @@
 {
   "name": "savethedate",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://nrajasombat.github.io/savethedate/",
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
