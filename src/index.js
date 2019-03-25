@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './owl_css/owl.theme.default.css';
+import './owl_css/owl.carousel.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

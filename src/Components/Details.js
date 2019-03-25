@@ -6,7 +6,7 @@ import familystyle from '../images/details/familystyle.jpg';
 
 const Details = ({ title }) => {
   return (
-    <div class="detail">
+    <div className="detail">
       <div className="container">
         <h2>{title}</h2>
         <Row>

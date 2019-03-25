@@ -6,7 +6,7 @@ import '../Event.scss';
 
 const Event = ({ title }) => {
   return (
-    <div class="event">
+    <div className="event">
       <div className="container">
         <div className="section-heading">
           <h2>{title}</h2>
@@ -45,7 +45,7 @@ const Event = ({ title }) => {
             <Col md={12}>
               <div className="resp-container">
                 <iframe
-                  class="resp-iframe"
+                  className="resp-iframe"
                   src="https://maps.google.com/maps?q=dallas%20palms&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0"
                   scrolling="no"
@@ -81,7 +81,7 @@ const Event = ({ title }) => {
             <Col md={12}>
               <div className="resp-container">
                 <iframe
-                  class="resp-iframe"
+                  className="resp-iframe"
                   src="https://maps.google.com/maps?q=Kirin%20Court&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0"
                   scrolling="no"

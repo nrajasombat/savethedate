@@ -133,7 +133,7 @@ const OurStory = ({ title }) => {
           <Row>
             <OwlCarousel className="owl-theme" {...options}>
               {selfies.map(selfie => (
-                <div class="photos">
+                <div className="photos">
                   <a href={selfie.picture}>
                     <Image
                       src={selfie.picture}

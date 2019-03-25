@@ -60,7 +60,7 @@ const Groomsmen = () => {
     <div className="container">
       <OwlCarousel className="owl-theme" margin={10} {...options}>
         {groomsmen.map(groomsman => (
-          <div class="groomsparty">
+          <div className="groomsparty">
             <Image src={groomsman.picture} circle bsClass="men img" />
             <div className="info">{groomsman.name}</div>
             <div className="description">{groomsman.job}</div>

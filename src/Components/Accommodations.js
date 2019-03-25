@@ -57,7 +57,7 @@ const Accommodations = ({ title }) => {
               <Col md={12}>
                 <div className="margin1">
                   {hotels.map(hotel => (
-                    <div class="hotelinfo">
+                    <div className="hotelinfo">
                       <Image src={hotel.picture} rounded bsClass="hotelsPic" />
                       <h3>{hotel.name}</h3>
                       <h4>{hotel.address}</h4>
