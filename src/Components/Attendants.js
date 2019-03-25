@@ -25,10 +25,10 @@ class Attendants extends Component {
           <Col md={12}>
             <ul className="nav-tab">
               <div className="attend-btn">
-                <a href="#maid" onClick={this.toggle.bind(this, 1)}>
+                <a onClick={this.toggle.bind(this, 1)}>
                   <Button className="maids">Bridesmaid</Button>
                 </a>
-                <a href="#groomsman" onClick={this.toggle.bind(this, 2)}>
+                <a onClick={this.toggle.bind(this, 2)}>
                   <Button className="groomsman">Groomsmen</Button>
                 </a>
                 <div
