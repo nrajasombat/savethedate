@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/calitrip.7c515a19.png"
   },
   {
-    "revision": "6409656898d8094124d7",
-    "url": "/savethedate/static/css/main.fde79435.chunk.css"
+    "revision": "a342256e06968d921d0e",
+    "url": "/savethedate/static/css/main.23a56065.chunk.css"
   },
   {
     "revision": "26b29392a2f0a638f2658fc9a8fce073",
     "url": "/savethedate/static/media/titlepagebg.26b29392.jpg"
   },
   {
-    "revision": "c96ad1d29089d15b9644",
-    "url": "/savethedate/static/js/1.c96ad1d2.chunk.js"
+    "revision": "fb3e6bafb9400b47effd",
+    "url": "/savethedate/static/js/1.fb3e6baf.chunk.js"
   },
   {
     "revision": "f0ccc8dceb8667f91cf4",
@@ -104,8 +104,8 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/xmas2016.b19a3b72.png"
   },
   {
-    "revision": "6409656898d8094124d7",
-    "url": "/savethedate/static/js/main.64096568.chunk.js"
+    "revision": "a342256e06968d921d0e",
+    "url": "/savethedate/static/js/main.a342256e.chunk.js"
   },
   {
     "revision": "f5a01f3419f5758df46a6cacb49516d4",
@@ -114,6 +114,10 @@ self.__precacheManifest = [
   {
     "revision": "fd4b89192c62e102de5a2be3d1de7d36",
     "url": "/savethedate/static/media/ring.fd4b8919.jpg"
+  },
+  {
+    "revision": "1f326938db66d70f896328988497c892",
+    "url": "/savethedate/static/media/jack.1f326938.jpg"
   },
   {
     "revision": "fe2a115d71087a8223ceca6048498893",
@@ -200,11 +204,11 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/pinkdiamond.62b9c7ad.png"
   },
   {
-    "revision": "c96ad1d29089d15b9644",
-    "url": "/savethedate/static/css/1.408cd34e.chunk.css"
+    "revision": "fb3e6bafb9400b47effd",
+    "url": "/savethedate/static/css/1.dd928993.chunk.css"
   },
   {
-    "revision": "d38b4c1c59c9309dd286a8aaed83ab5b",
+    "revision": "c8938eb03285543eb1f7e5b32e508663",
     "url": "/savethedate/index.html"
   }
 ];
