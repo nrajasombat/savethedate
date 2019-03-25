@@ -12,18 +12,26 @@ import pic6 from '../images/ourstory/calitrip.png';
 import { Image, Row } from 'react-bootstrap';
 import anime from '../images/ourstory/animation.gif';
 import pic7 from '../images/ourstory/ring.jpg';
+import jack from '../images/ourstory/jack.jpg';
+import official from '../images/ourstory/facebookofficial.jpg';
 
 const selfies = [
+  {
+    picture: pic2,
+    description: 'November 18, 2012',
+    date: 'First Date',
+  },
   {
     picture: pic1,
     description: '2012',
     date: 'First Selfie Together',
   },
   {
-    picture: pic2,
-    description: '2013',
-    date: 'First Date',
+    picture: official,
+    description: 'May 15, 2013',
+    date: "It's Official",
   },
+
   {
     picture: pic3,
     description: '2013',
