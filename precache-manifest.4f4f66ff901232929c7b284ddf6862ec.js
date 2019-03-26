@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/animation.f5a01f34.gif"
   },
   {
-    "revision": "ad486ef018d3a3db702d",
-    "url": "/savethedate/static/css/main.0a805d48.chunk.css"
+    "revision": "299a80403ffddf390f22",
+    "url": "/savethedate/static/css/main.df77e208.chunk.css"
   },
   {
     "revision": "26b29392a2f0a638f2658fc9a8fce073",
     "url": "/savethedate/static/media/titlepagebg.26b29392.jpg"
   },
   {
-    "revision": "4bf049da0dd3acd3cd02",
-    "url": "/savethedate/static/js/1.4bf049da.chunk.js"
+    "revision": "cd620d076155a5708f42",
+    "url": "/savethedate/static/js/1.cd620d07.chunk.js"
   },
   {
     "revision": "f0ccc8dceb8667f91cf4",
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/calitrip.7c515a19.png"
   },
   {
-    "revision": "ad486ef018d3a3db702d",
-    "url": "/savethedate/static/js/main.ad486ef0.chunk.js"
+    "revision": "299a80403ffddf390f22",
+    "url": "/savethedate/static/js/main.299a8040.chunk.js"
   },
   {
     "revision": "fd4b89192c62e102de5a2be3d1de7d36",
@@ -122,6 +122,10 @@ self.__precacheManifest = [
   {
     "revision": "486e6ba9489073bc021945c2f1cabba9",
     "url": "/savethedate/static/media/facebookofficial.486e6ba9.jpg"
+  },
+  {
+    "revision": "1fc6ad8e3cec42937b3466568e8e88d7",
+    "url": "/savethedate/static/media/savedate.1fc6ad8e.png"
   },
   {
     "revision": "fe2a115d71087a8223ceca6048498893",
@@ -208,11 +212,11 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/pinkdiamond.62b9c7ad.png"
   },
   {
-    "revision": "4bf049da0dd3acd3cd02",
-    "url": "/savethedate/static/css/1.b1cae470.chunk.css"
+    "revision": "cd620d076155a5708f42",
+    "url": "/savethedate/static/css/1.b1a2f103.chunk.css"
   },
   {
-    "revision": "1f4befb3e9b3956a46429b12017b45a2",
+    "revision": "6b13e887849096c267ed9ac82af63f35",
     "url": "/savethedate/index.html"
   }
 ];
