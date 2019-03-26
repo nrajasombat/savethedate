@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/xmas2016.b19a3b72.png"
   },
   {
-    "revision": "05e6282d1dff074c3004",
+    "revision": "5632fb6b26fc5b21f354",
     "url": "/savethedate/static/css/main.8153d083.chunk.css"
   },
   {
@@ -100,8 +100,8 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/sefwedding.35c74df5.png"
   },
   {
-    "revision": "05e6282d1dff074c3004",
-    "url": "/savethedate/static/js/main.05e6282d.chunk.js"
+    "revision": "5632fb6b26fc5b21f354",
+    "url": "/savethedate/static/js/main.5632fb6b.chunk.js"
   },
   {
     "revision": "7c515a19da30eea8d04344c67507925d",
@@ -196,7 +196,7 @@ self.__precacheManifest = [
     "url": "/savethedate/static/css/1.522c0a56.chunk.css"
   },
   {
-    "revision": "bbac139ab9034b52297a49275815e4ce",
+    "revision": "b04c9ea65c8789296373ce43cdb4b6dd",
     "url": "/savethedate/index.html"
   }
 ];

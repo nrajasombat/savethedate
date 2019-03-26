@@ -1,7 +1,7 @@
 {
   "main.css": "/savethedate/static/css/main.8153d083.chunk.css",
-  "main.js": "/savethedate/static/js/main.05e6282d.chunk.js",
-  "main.js.map": "/savethedate/static/js/main.05e6282d.chunk.js.map",
+  "main.js": "/savethedate/static/js/main.5632fb6b.chunk.js",
+  "main.js.map": "/savethedate/static/js/main.5632fb6b.chunk.js.map",
   "static/css/1.522c0a56.chunk.css": "/savethedate/static/css/1.522c0a56.chunk.css",
   "static/js/1.ad771b06.chunk.js": "/savethedate/static/js/1.ad771b06.chunk.js",
   "static/js/1.ad771b06.chunk.js.map": "/savethedate/static/js/1.ad771b06.chunk.js.map",
@@ -51,9 +51,9 @@
   "static/media/residenceinn.jpg": "/savethedate/static/media/residenceinn.be296398.jpg",
   "static/media/About.css": "/savethedate/static/media/titlebg.cb900940.png",
   "static/media/Title.scss": "/savethedate/static/media/titlepagebg.26b29392.jpg",
-  "static/css/main.8153d083.chunk.css.map": "/savethedate/static/css/main.8153d083.chunk.css.map",
   "static/css/1.522c0a56.chunk.css.map": "/savethedate/static/css/1.522c0a56.chunk.css.map",
+  "static/css/main.8153d083.chunk.css.map": "/savethedate/static/css/main.8153d083.chunk.css.map",
   "index.html": "/savethedate/index.html",
-  "precache-manifest.7df6751bfbd8b3bc6034180cef8c2a42.js": "/savethedate/precache-manifest.7df6751bfbd8b3bc6034180cef8c2a42.js",
+  "precache-manifest.bfdfdfb774708f35d35001eb54a930fc.js": "/savethedate/precache-manifest.bfdfdfb774708f35d35001eb54a930fc.js",
   "service-worker.js": "/savethedate/service-worker.js"
 }
