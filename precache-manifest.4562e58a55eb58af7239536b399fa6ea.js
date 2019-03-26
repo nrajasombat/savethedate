@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/animation.f5a01f34.gif"
   },
   {
-    "revision": "10f30f6d7eedce19a8e2",
+    "revision": "f2d71d7c9821a959c9ea",
     "url": "/savethedate/static/css/main.4a50123f.chunk.css"
   },
   {
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/calitrip.7c515a19.png"
   },
   {
-    "revision": "10f30f6d7eedce19a8e2",
-    "url": "/savethedate/static/js/main.10f30f6d.chunk.js"
+    "revision": "f2d71d7c9821a959c9ea",
+    "url": "/savethedate/static/js/main.f2d71d7c.chunk.js"
   },
   {
     "revision": "fd4b89192c62e102de5a2be3d1de7d36",
@@ -212,7 +212,7 @@ self.__precacheManifest = [
     "url": "/savethedate/static/css/1.dd928993.chunk.css"
   },
   {
-    "revision": "232382e1270ffa40c48925bcca5a0d8c",
+    "revision": "4008eb8a6f8c67c600ce705898bd8e1f",
     "url": "/savethedate/index.html"
   }
 ];
