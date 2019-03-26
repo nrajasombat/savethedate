@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
-import About from './Components/About';
-import Attendants from './Components/Attendants';
-import Event from './Components/Event';
-import OurStory from './Components/OurStory';
-import Details from './Components/Details';
-import Registry from './Components/Registry';
+import About from './components/About';
+import Attendants from './components/Attendants';
+import Event from './components/Event';
+import OurStory from './components/OurStory';
+import Details from './components/Details';
+import Registry from './components/Registry';
 import Pics from './SmartComponents/Pics';
-import Title from './Components/Title';
+import Title from './components/Title';
 import Header from './Header';
-import Accommodations from './Components/Accommodations';
+import Accommodations from './components/Accommodations';
 
 class App extends Component {
   render() {

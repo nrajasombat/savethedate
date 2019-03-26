@@ -1,6 +1,8 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Image } from 'react-bootstrap';
+//import { Link } from 'react-router-dom';
 import '../style/Registry.scss';
+import zola from '../images/details/zola-logo-blue.jpg';
 
 const Registry = ({ title }) => {
   return (
@@ -11,13 +13,10 @@ const Registry = ({ title }) => {
           <div className="heart" />
           <Row>
             <Col md={12}>
-              <div className="right">
-                <div className="title">Registry</div>
-                <p>
-                  In lieu of registry gifts, a check, cash or contribution to
-                  our Newly Wed Fund would be greatly appreciated.
-                </p>
-                <p>Amazon Website</p>
+              <div className="registry-icon">
+                <a href="//www.zola.com/registry/thaandvu" target="_blank">
+                  <Image src={zola} circle />
+                </a>
               </div>
             </Col>
           </Row>

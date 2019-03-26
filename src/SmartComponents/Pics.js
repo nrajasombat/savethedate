@@ -12,11 +12,6 @@ import img8 from '../images/gallery/engagement8.jpg';
 import img9 from '../images/gallery/engagement9.jpg';
 import img10 from '../images/gallery/engagement10.jpg';
 import img11 from '../images/gallery/engagement11.jpg';
-import goldbg from '../images/background/gold.png';
-import goldchevron from '../images/background/GoldChevron.png';
-import trianglebg from '../images/background/triangleGold.png';
-import pinkgoldbg from '../images/background/pinkGold.png';
-import pinkdiamondbg from '../images/background/pinkdiamond.png';
 import '../style/Pics.scss';
 
 const photos = [

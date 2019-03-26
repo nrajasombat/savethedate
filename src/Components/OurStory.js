@@ -12,8 +12,9 @@ import pic6 from '../images/ourstory/calitrip.png';
 import { Image, Row } from 'react-bootstrap';
 import anime from '../images/ourstory/animation.gif';
 import pic7 from '../images/ourstory/ring.jpg';
-import jack from '../images/ourstory/jack.jpg';
+import valentines from '../images/ourstory/032.JPG';
 import official from '../images/ourstory/facebookofficial.jpg';
+import savedate from '../images/ourstory/savedate.png';
 
 const selfies = [
   {
@@ -31,36 +32,47 @@ const selfies = [
     description: 'May 15, 2013',
     date: "It's Official",
   },
+  {
+    picture: valentines,
+    description: 'Feburary 14, 2014',
+    date: 'First Valentine',
+  },
 
   {
     picture: pic3,
-    description: '2013',
+    description: 'June 7, 2014',
     date: 'First Party',
   },
   {
     picture: pic4,
-    description: '2014',
-    date: 'First Wedding ',
+    description: 'August 2, 2014',
+    date: 'First Wedding',
   },
   {
     picture: anime,
-    description: '2014',
+    description: 'August 2, 2014',
     date: 'Our Trip to Arkansas',
   },
   {
-    picture: pic5,
-    description: '2015',
-    date: 'Christmas 2015',
+    picture: pic6,
+    description: 'August 5, 2015',
+    date: 'Our Trip to California',
   },
   {
-    picture: pic6,
-    description: '2015',
-    date: 'Our First Trip to California Together',
+    picture: pic5,
+    description: 'December 25, 2015',
+    date: 'Christmas 2015',
   },
+
   {
     picture: pic7,
     description: 'September 17, 2016',
-    date: 'He Proposed',
+    date: 'Engaged!!!',
+  },
+  {
+    picture: savedate,
+    description: 'October 26, 2019',
+    date: 'New Chapter as Mr. and Mrs. Nguyen',
   },
 ];
 const options = {
