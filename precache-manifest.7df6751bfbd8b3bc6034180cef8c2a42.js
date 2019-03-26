@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f5a01f3419f5758df46a6cacb49516d4",
-    "url": "/savethedate/static/media/animation.f5a01f34.gif"
+    "revision": "b19a3b727a8a4bf62eb299e8bb372b4a",
+    "url": "/savethedate/static/media/xmas2016.b19a3b72.png"
   },
   {
-    "revision": "299a80403ffddf390f22",
-    "url": "/savethedate/static/css/main.df77e208.chunk.css"
+    "revision": "05e6282d1dff074c3004",
+    "url": "/savethedate/static/css/main.8153d083.chunk.css"
   },
   {
     "revision": "26b29392a2f0a638f2658fc9a8fce073",
     "url": "/savethedate/static/media/titlepagebg.26b29392.jpg"
   },
   {
-    "revision": "cd620d076155a5708f42",
-    "url": "/savethedate/static/js/1.cd620d07.chunk.js"
+    "revision": "ad771b06f9487a36961a",
+    "url": "/savethedate/static/js/1.ad771b06.chunk.js"
   },
   {
     "revision": "f0ccc8dceb8667f91cf4",
@@ -100,16 +100,16 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/sefwedding.35c74df5.png"
   },
   {
-    "revision": "b19a3b727a8a4bf62eb299e8bb372b4a",
-    "url": "/savethedate/static/media/xmas2016.b19a3b72.png"
+    "revision": "05e6282d1dff074c3004",
+    "url": "/savethedate/static/js/main.05e6282d.chunk.js"
   },
   {
     "revision": "7c515a19da30eea8d04344c67507925d",
     "url": "/savethedate/static/media/calitrip.7c515a19.png"
   },
   {
-    "revision": "299a80403ffddf390f22",
-    "url": "/savethedate/static/js/main.299a8040.chunk.js"
+    "revision": "f5a01f3419f5758df46a6cacb49516d4",
+    "url": "/savethedate/static/media/animation.f5a01f34.gif"
   },
   {
     "revision": "fd4b89192c62e102de5a2be3d1de7d36",
@@ -117,7 +117,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "cde73dc2931bea30166a6fee02d189a0",
-    "url": "/savethedate/static/media/032.cde73dc2.jpg"
+    "url": "/savethedate/static/media/032.cde73dc2.JPG"
   },
   {
     "revision": "486e6ba9489073bc021945c2f1cabba9",
@@ -192,31 +192,11 @@ self.__precacheManifest = [
     "url": "/savethedate/static/media/titlebg.cb900940.png"
   },
   {
-    "revision": "24ef7be472b974096b193e5838f97dc8",
-    "url": "/savethedate/static/media/gold.24ef7be4.png"
+    "revision": "ad771b06f9487a36961a",
+    "url": "/savethedate/static/css/1.522c0a56.chunk.css"
   },
   {
-    "revision": "0d0d798f3762200de065606cf7878703",
-    "url": "/savethedate/static/media/GoldChevron.0d0d798f.png"
-  },
-  {
-    "revision": "2fd7202dc245bfb7f645cd96d6fe612a",
-    "url": "/savethedate/static/media/triangleGold.2fd7202d.png"
-  },
-  {
-    "revision": "52db9444891e45658a3a32c2206c8551",
-    "url": "/savethedate/static/media/pinkGold.52db9444.png"
-  },
-  {
-    "revision": "62b9c7ad659562c84d50de2661246a4d",
-    "url": "/savethedate/static/media/pinkdiamond.62b9c7ad.png"
-  },
-  {
-    "revision": "cd620d076155a5708f42",
-    "url": "/savethedate/static/css/1.b1a2f103.chunk.css"
-  },
-  {
-    "revision": "6b13e887849096c267ed9ac82af63f35",
+    "revision": "bbac139ab9034b52297a49275815e4ce",
     "url": "/savethedate/index.html"
   }
 ];
