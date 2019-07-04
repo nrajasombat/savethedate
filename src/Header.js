@@ -41,6 +41,9 @@ const Header = () => {
             <NavItem eventKey={4}>
               <Link to="/gallery">Gallery</Link>
             </NavItem>
+            <NavItem eventKey={5}>
+              <Link to="/RSVP">RSVP</Link>
+            </NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

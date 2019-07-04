@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Row, Image } from 'react-bootstrap';
-//import { Link } from 'react-router-dom';
 import '../style/Registry.scss';
 import zola from '../images/details/zola-logo-blue.jpg';
 

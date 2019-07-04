@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
 import ballroom from '../images/events/ballroom.png';
 import dallaspalms from '../images/events/dallaspalms.png';
+import reception from '../images/events/kirincourt.jpg';
 import '../Event.scss';
 
 const Event = ({ title }) => {
@@ -72,7 +73,7 @@ const Event = ({ title }) => {
             <Col md={6}>
               <div className="margin1">
                 <div className="left">
-                  <Image src={dallaspalms} rounded bsClass="celebrate img" />
+                  <Image src={reception} rounded bsClass="celebrate img" />
                 </div>
               </div>
             </Col>

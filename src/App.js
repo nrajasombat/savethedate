@@ -11,6 +11,7 @@ import Pics from './SmartComponents/Pics';
 import Title from './components/Title';
 import Header from './Header';
 import Accommodations from './components/Accommodations';
+import RSVP from './components/RSVP';
 
 class App extends Component {
   render() {
@@ -45,6 +46,7 @@ class App extends Component {
             component={() => <Registry title="Registry" />}
           />
           <Route path="/gallery" component={() => <Pics title="Gallery" />} />
+          <Route path="/RSVP" component={() => <RSVP title="RSVP" />} />
         </div>
       </HashRouter>
     );
