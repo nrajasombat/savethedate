@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Button } from 'react-bootstrap';
 import '../style/WeddingDate.scss';
 import Time from './Time.js';
 
@@ -18,7 +18,13 @@ class WeddingDate extends Component {
                 <div className="title">
                   <h2>October 26, 2019</h2>
                   <div className="heart" />
+                  <h5 className="margin1">
+                    Please RSVP before 26th of September
+                  </h5>
                   <Time deadline={this.state.deadline} />
+                  <a href="#rsvp">
+                    <Button>RSVP</Button>
+                  </a>
                 </div>
               </div>
             </Col>
