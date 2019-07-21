@@ -4,7 +4,6 @@ import './App.css';
 import About from './components/About';
 import Attendants from './components/Attendants';
 import Event from './components/Event';
-import OurStory from './components/OurStory';
 import Details from './components/Details';
 import Registry from './components/Registry';
 import Pics from './SmartComponents/Pics';
@@ -12,6 +11,7 @@ import Title from './components/Title';
 import Header from './Header';
 import Accommodations from './components/Accommodations';
 import RSVP from './components/RSVP';
+import Timeline from './components/Timeline';
 
 class App extends Component {
   render() {
@@ -26,7 +26,7 @@ class App extends Component {
           />
           <Route
             path="/ourstory"
-            component={() => <OurStory title="Our Story" />}
+            component={() => <Timeline title="Our Story" />}
           />
           <Route
             path="/attendants"
