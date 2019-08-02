@@ -10,87 +10,80 @@ const Timeline = ({ title }) => {
           <div className="heart" />
           <section id="cd-timeline" class="cd-container">
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-picture"></div>
+              <div className="cd-timeline-img cd-picture">
+                <div className="minihearts">
+                  <i class="fa fa-heart"></i>
+                </div>
+              </div>
 
               <div className="cd-timeline-content">
-                <h2>Penta Consulting</h2>
-                <p>
-                  Working alongside the designer team implementing the designs,
-                  also developing custom solutions to address team necessities.
-                </p>
+                <h2>First time we met</h2>
+                <h6>November 18, 2012</h6>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-movie"></div>
+              <div className="cd-timeline-img cd-movie">
+                <div className="minihearts">
+                  <i class="fab fa-facebook"></i>
+                </div>
+              </div>
 
               <div className="cd-timeline-content">
-                <h2>Title of section 2</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Iusto, optio, dolorum provident rerum aut hic quasi placeat
-                  iure tempora laudantium ipsa ad debitis unde?
-                </p>
-                <span className="cd-date">Jan 18</span>
+                <h2>Facebook Official</h2>
+                <h6>May 15, 2013</h6>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-picture"></div>
+              <div className="cd-timeline-img cd-picture">
+                <div className="minihearts">
+                  <i class="fas fa-home"></i>
+                </div>
+              </div>
 
               <div className="cd-timeline-content">
-                <h2>Title of section 3</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Excepturi, obcaecati, quisquam id molestias eaque asperiores
-                  voluptatibus cupiditate error assumenda delectus odit
-                  similique earum voluptatem doloremque dolorem ipsam quae rerum
-                  quis. Odit, itaque, deserunt corporis vero ipsum nisi eius
-                  odio natus ullam provident pariatur temporibus quia eos
-                  repellat consequuntur perferendis enim amet quae quasi
-                  repudiandae sed quod veniam dolore possimus rem voluptatum
-                  eveniet eligendi quis fugiat aliquam sunt similique aut
-                  adipisci.
-                </p>
-                <div className="cd-date">Jan 24</div>
+                <h2>Moving In</h2>
+                <h6>April 3, 2014</h6>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-location"></div>
+              <div className="cd-timeline-img cd-location">
+                <div className="minihearts">
+                  <i class="fas fa-ring"></i>
+                </div>
+              </div>
 
               <div className="cd-timeline-content">
-                <h2>Title of section 4</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Iusto, optio, dolorum provident rerum aut hic quasi placeat
-                  iure tempora laudantium ipsa ad debitis unde? Iste
-                  voluptatibus minus veritatis qui ut.
-                </p>
-                <span className="cd-date">Feb 14</span>
+                <h2>The Proposal</h2>
+                <h6>September 17, 2016</h6>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-location"></div>
+              <div className="cd-timeline-img cd-location">
+                <div className="minihearts">
+                  <i class="fas fa-plane-departure"></i>
+                </div>
+              </div>
 
               <div className="cd-timeline-content">
-                <h2>Title of section 5</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Iusto, optio, dolorum provident rerum.
-                </p>
-                <span className="cd-date">Feb 18</span>
+                <h2>Exploring the world together...</h2>
+                <h6>December 18, 2016 </h6>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-movie"></div>
+              <div className="cd-timeline-img cd-movie">
+                <div className="minihearts">
+                  <i class="fas fa-dove"></i>
+                </div>
+              </div>
 
               <div class="cd-timeline-content">
-                <h2>Final Section</h2>
-                <p>This is the content of the last section</p>
-                <span class="cd-date">Feb 26</span>
+                <h2>Getting married.</h2>
+                <h6>October 26, 2019</h6>
               </div>
             </div>
           </section>
