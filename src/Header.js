@@ -36,10 +36,10 @@ const Header = () => {
               <Link to="/detail">More Info</Link>
             </NavItem>
             <NavItem eventKey={3}>
-              <Link to="/registry">Registry</Link>
+              <Link to="/gallery">Gallery</Link>
             </NavItem>
             <NavItem eventKey={4}>
-              <Link to="/gallery">Gallery</Link>
+              <Link to="/registry">Registry</Link>
             </NavItem>
             <NavItem eventKey={5}>
               <Link to="/RSVP">RSVP</Link>

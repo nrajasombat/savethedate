@@ -7,7 +7,7 @@ import azpic from '../images/groomsmen/AZ.png';
 import victorpic from '../images/groomsmen/Victor.png';
 import dillonpic from '../images/groomsmen/Dillon.png';
 import alanpic from '../images/groomsmen/Alan.png';
-import robertpic from '../images/groomsmen/Robert.png';
+import robertpic from '../images/groomsmen/halfnakedrob.png';
 import aaronpic from '../images/groomsmen/aaron.png';
 import { Image } from 'react-bootstrap';
 

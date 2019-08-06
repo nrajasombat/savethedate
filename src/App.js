@@ -41,11 +41,11 @@ class App extends Component {
             path="/detail"
             component={() => <Details title="More Information" />}
           />
+          <Route path="/gallery" component={() => <Pics title="Gallery" />} />
           <Route
             path="/registry"
             component={() => <Registry title="Registry" />}
           />
-          <Route path="/gallery" component={() => <Pics title="Gallery" />} />
           <Route path="/RSVP" component={() => <RSVP title="RSVP" />} />
         </div>
       </HashRouter>
