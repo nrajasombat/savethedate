@@ -1,9 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import '../style/RSVP.scss';
 
 const RSVP = ({ title }) => {
   return (
-    <div className="registry">
+    <div className="rsvp">
       <div className="container">
         <div className="section-heading">
           <h2>{title}</h2>
