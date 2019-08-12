@@ -1,27 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "08688cac7d7473643531",
-    "url": "/static/css/main.ed2cb411.chunk.css"
+    "revision": "92327543ec060d427f87",
+    "url": "/static/css/main.00859dd1.chunk.css"
   },
   {
-    "revision": "08688cac7d7473643531",
-    "url": "/static/js/main.08688cac.chunk.js"
+    "revision": "92327543ec060d427f87",
+    "url": "/static/js/main.92327543.chunk.js"
   },
   {
-    "revision": "a8b79d8d2a0d2cb8eedf",
+    "revision": "71933306c00088f7bee6",
     "url": "/static/css/1.3c1a435d.chunk.css"
   },
   {
-    "revision": "a8b79d8d2a0d2cb8eedf",
-    "url": "/static/js/1.a8b79d8d.chunk.js"
+    "revision": "71933306c00088f7bee6",
+    "url": "/static/js/1.71933306.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
-  },
-  {
-    "revision": "10f6f45e3b7adba3c17221d48fa54aa2",
-    "url": "/static/media/amazonlogo.10f6f45e.png"
   },
   {
     "revision": "7f80ff118cfde1b35ae2d60bb8ec0102",
@@ -104,6 +100,10 @@ self.__precacheManifest = [
     "url": "/static/media/familystyle.51927dfc.jpg"
   },
   {
+    "revision": "10f6f45e3b7adba3c17221d48fa54aa2",
+    "url": "/static/media/amazonlogo.10f6f45e.png"
+  },
+  {
     "revision": "9192835c66b292353403560d6e23d64d",
     "url": "/static/media/engagement1.9192835c.png"
   },
@@ -164,7 +164,7 @@ self.__precacheManifest = [
     "url": "/static/media/titlepagebg.26b29392.jpg"
   },
   {
-    "revision": "26347edd25dfed96a39c3f2f92c8a911",
+    "revision": "ce6c93ad0fc2711781c24b04a149e82e",
     "url": "/index.html"
   }
 ];
