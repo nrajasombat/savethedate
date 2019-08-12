@@ -5,22 +5,23 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import azpic from '../images/groomsmen/AZ.png';
 import victorpic from '../images/groomsmen/Victor.png';
-import dillonpic from '../images/groomsmen/Dillon.png';
 import alanpic from '../images/groomsmen/Alan.png';
-import robertpic from '../images/groomsmen/halfnakedrob.png';
+import robertpic from '../images/groomsmen/Rob.png';
 import aaronpic from '../images/groomsmen/aaron.png';
+import bouthasonepic from '../images/groomsmen/bout.png';
+
 import { Image } from 'react-bootstrap';
 
 const groomsmen = [
   {
     picture: robertpic,
     name: 'Robert Simpson',
-    job: 'Groomsmen',
+    job: 'Best Men',
   },
   {
     picture: victorpic,
     name: 'Victor Buhl',
-    job: 'Groomsmen',
+    job: 'Best Men',
   },
   {
     picture: alanpic,
@@ -38,8 +39,8 @@ const groomsmen = [
     job: 'Groomsmen',
   },
   {
-    picture: dillonpic,
-    name: 'Dillon Manokoune',
+    picture: bouthasonepic,
+    name: 'Bouthasone Rajasombat',
     job: 'Groomsmen',
   },
 ];

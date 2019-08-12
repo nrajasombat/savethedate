@@ -8,6 +8,7 @@ import neenapic from '../images/bridesmaids/Neena.png';
 import lisapic from '../images/bridesmaids/Lisa.png';
 import jennypic from '../images/bridesmaids/Jenny.png';
 import ashleypic from '../images/bridesmaids/Ashl.png';
+import dillonpic from '../images/bridesmaids/Dillon.png';
 import { Image } from 'react-bootstrap';
 
 const bridesmaids = [
@@ -35,6 +36,11 @@ const bridesmaids = [
     picture: ashleypic,
     name: 'Ashley Ngaoluangrath',
     job: 'Bridesmaid',
+  },
+  {
+    picture: dillonpic,
+    name: 'Dillon Manokoune',
+    job: 'Bridesman',
   },
 ];
 const options = {

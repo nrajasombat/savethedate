@@ -21,9 +21,9 @@ const Event = ({ title }) => {
             <Col md={6}>
               <div className="right">
                 <div className="title">Celebrate With Us</div>
-                <div> Date: Saturday, October 26, 2018 </div>
-                <div> Time: 3:00 PM </div>
-                <div>Attire: Formal</div>
+                <h6> Date: Saturday, October 26, 2018 </h6>
+                <h6> Time: 3:00 PM </h6>
+                <h6>Attire: Formal</h6>
               </div>
             </Col>
           </Row>
@@ -62,7 +62,6 @@ const Event = ({ title }) => {
               <div className="margin1">
                 <div className="right">
                   <div className="title"> The Reception</div>
-                  <div> Date: Saturday, October 26, 2018 </div>
                   <h6> Time: 6:00 PM - Midnight</h6>
                   <h6> Kirin Court</h6>
                   <h6>221 W Polk St #200</h6>
