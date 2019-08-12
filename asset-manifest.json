@@ -1,10 +1,10 @@
 {
-  "main.css": "/static/css/main.ea817e1b.chunk.css",
-  "main.js": "/static/js/main.b754e884.chunk.js",
-  "main.js.map": "/static/js/main.b754e884.chunk.js.map",
+  "main.css": "/static/css/main.ed2cb411.chunk.css",
+  "main.js": "/static/js/main.08688cac.chunk.js",
+  "main.js.map": "/static/js/main.08688cac.chunk.js.map",
   "static/css/1.3c1a435d.chunk.css": "/static/css/1.3c1a435d.chunk.css",
-  "static/js/1.012ea0fa.chunk.js": "/static/js/1.012ea0fa.chunk.js",
-  "static/js/1.012ea0fa.chunk.js.map": "/static/js/1.012ea0fa.chunk.js.map",
+  "static/js/1.a8b79d8d.chunk.js": "/static/js/1.a8b79d8d.chunk.js",
+  "static/js/1.a8b79d8d.chunk.js.map": "/static/js/1.a8b79d8d.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/amazonlogo.png": "/static/media/amazonlogo.10f6f45e.png",
@@ -43,9 +43,9 @@
   "static/media/residenceinn.jpg": "/static/media/residenceinn.be296398.jpg",
   "static/media/About.css": "/static/media/titlebg.cb900940.png",
   "static/media/Title.scss": "/static/media/titlepagebg.26b29392.jpg",
-  "static/css/main.ea817e1b.chunk.css.map": "/static/css/main.ea817e1b.chunk.css.map",
+  "static/css/main.ed2cb411.chunk.css.map": "/static/css/main.ed2cb411.chunk.css.map",
   "static/css/1.3c1a435d.chunk.css.map": "/static/css/1.3c1a435d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.3aefb48acaa60d14bd67b7e2b9db894e.js": "/precache-manifest.3aefb48acaa60d14bd67b7e2b9db894e.js",
+  "precache-manifest.bd625d37033ed8a00d503381fe6128ec.js": "/precache-manifest.bd625d37033ed8a00d503381fe6128ec.js",
   "service-worker.js": "/service-worker.js"
 }
