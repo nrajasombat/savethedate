@@ -3,6 +3,17 @@
   margin-top: -20px;
   padding-top: 100px;
   padding-bottom: 100px;
+  .parking.img-rounded {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border: 8px solid #fff;
+    margin-bottom: 5vh;
+  }
+  .section {
+    margin-top: 15vh;
+  }
   .left {
     .family.img-rounded {
       padding: 10px;
@@ -46,5 +57,10 @@
     position: absolute;
     width: 100%;
     z-index: -1;
+  }
+  @media only screen and (max-width: 700px) {
+    .hotelsPic-rounded {
+      height: 200px;
+    }
   }
 }

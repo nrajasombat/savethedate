@@ -12,30 +12,20 @@ const Registry = ({ title }) => {
           <h2>{title}</h2>
           <div className="heart" />
           <Row>
-            <Col md={4}>
+            <Col md={6}>
               <div className="icon">
                 <a href="//www.zola.com/registry/thaandvu" target="_blank">
-                  <Image src={zola} rounded />
+                  <Image src={zola} circle bsClass="logo img" />
                 </a>
               </div>
             </Col>
-            <Col md={4}>
+            <Col md={6}>
               <div className="icon">
                 <a
                   href="https://www.amazon.com/wedding/share/tha_vu"
                   target="_blank"
                 >
-                  <Image src={amazon} rounded />
-                </a>
-              </div>
-            </Col>
-            <Col md={4}>
-              <div className="icon">
-                <a
-                  href="https://www.amazon.com/wedding/share/tha_vu"
-                  target="_blank"
-                >
-                  <Image src={amazon} rounded />
+                  <Image src={amazon} circle bsClass="logo img" />
                 </a>
               </div>
             </Col>
