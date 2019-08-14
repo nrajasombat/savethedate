@@ -12,6 +12,7 @@ import Header from './Header';
 import Accommodations from './components/Accommodations';
 import RSVP from './components/RSVP';
 import Timeline from './components/Timeline';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -47,6 +48,7 @@ class App extends Component {
             component={() => <Registry title="Registry" />}
           />
           <Route path="/RSVP" component={() => <RSVP title="RSVP" />} />
+          <Footer />
         </div>
       </HashRouter>
     );
