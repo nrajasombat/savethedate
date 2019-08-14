@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.b6a8b9b6.chunk.css",
-  "main.js": "/static/js/main.65d267d3.chunk.js",
-  "main.js.map": "/static/js/main.65d267d3.chunk.js.map",
+  "main.js": "/static/js/main.5020d885.chunk.js",
+  "main.js.map": "/static/js/main.5020d885.chunk.js.map",
   "static/css/1.3c1a435d.chunk.css": "/static/css/1.3c1a435d.chunk.css",
   "static/js/1.71933306.chunk.js": "/static/js/1.71933306.chunk.js",
   "static/js/1.71933306.chunk.js.map": "/static/js/1.71933306.chunk.js.map",
@@ -10,7 +10,7 @@
   "static/media/engagement7.jpg": "/static/media/engagement7.7f80ff11.jpg",
   "static/media/Tha.png": "/static/media/Tha.c6b5dd7a.png",
   "static/media/Vu.png": "/static/media/Vu.de5d9299.png",
-  "static/media/anina.png": "/static/media/anina.4575cc4f.png",
+  "static/media/anina.png": "/static/media/anina.1c3b7d96.png",
   "static/media/Neena.png": "/static/media/Neena.8b4589a2.png",
   "static/media/Lisa.png": "/static/media/Lisa.76e54238.png",
   "static/media/Jenny.png": "/static/media/Jenny.ea34169c.png",
@@ -43,9 +43,9 @@
   "static/media/residenceinn.jpg": "/static/media/residenceinn.be296398.jpg",
   "static/media/About.css": "/static/media/titlebg.cb900940.png",
   "static/media/Title.scss": "/static/media/titlepagebg.26b29392.jpg",
-  "static/css/main.b6a8b9b6.chunk.css.map": "/static/css/main.b6a8b9b6.chunk.css.map",
   "static/css/1.3c1a435d.chunk.css.map": "/static/css/1.3c1a435d.chunk.css.map",
+  "static/css/main.b6a8b9b6.chunk.css.map": "/static/css/main.b6a8b9b6.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d5ea42dee4bb54affb9463e686d5f051.js": "/precache-manifest.d5ea42dee4bb54affb9463e686d5f051.js",
+  "precache-manifest.8d70cd38eb1cb413a4ec671c633d44b3.js": "/precache-manifest.8d70cd38eb1cb413a4ec671c633d44b3.js",
   "service-worker.js": "/service-worker.js"
 }
