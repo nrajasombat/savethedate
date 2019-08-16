@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import '../style/RSVP.scss';
+import './RSVP.scss';
 
 const RSVP = ({ title }) => {
   return (

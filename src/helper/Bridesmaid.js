@@ -1,9 +1,9 @@
 import React from 'react';
-import '../style/Bridesmaid.scss';
+import './Bridesmaid.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import aninapic from '../images/bridesmaids/anina.png';
+import aninapic from '../images/bridesmaids/Anina.png';
 import neenapic from '../images/bridesmaids/Neena.png';
 import lisapic from '../images/bridesmaids/Lisa.png';
 import jennypic from '../images/bridesmaids/Jenny.png';

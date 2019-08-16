@@ -12,7 +12,7 @@ import img8 from '../images/gallery/engagement8.jpg';
 import img9 from '../images/gallery/engagement9.jpg';
 import img10 from '../images/gallery/engagement10.jpg';
 import img11 from '../images/gallery/engagement11.jpg';
-import '../style/Pics.scss';
+import './Pics.scss';
 
 const photos = [
   {

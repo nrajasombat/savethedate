@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.scss';
-import { Col, Image } from 'react-bootstrap';
 
 const Footer = ({ title }) => {
   return (

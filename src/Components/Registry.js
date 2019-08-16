@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row, Image } from 'react-bootstrap';
-import '../style/Registry.scss';
+import './Registry.scss';
 import zola from '../images/details/zola-logo-blue.jpg';
 import amazon from '../images/details/amazonlogo.png';
 

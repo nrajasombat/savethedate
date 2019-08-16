@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../style/Attendants.scss';
+import './Attendants.scss';
 import { Col, Button } from 'react-bootstrap';
 import Bridesmaid from '../helper/Bridesmaid';
 import Groomsmen from '../helper/Groomsmen';

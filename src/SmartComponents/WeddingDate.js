@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row, Button } from 'react-bootstrap';
-import '../style/WeddingDate.scss';
+import './WeddingDate.scss';
 import Time from './Time.js';
 
 class WeddingDate extends Component {

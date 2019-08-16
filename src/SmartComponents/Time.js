@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../style/Time.scss';
+import './Time.scss';
 
 class Time extends Component {
   constructor(props) {

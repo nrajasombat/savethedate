@@ -3,7 +3,7 @@ import { Col, Image, Row } from 'react-bootstrap';
 import ballroom from '../images/events/ballroom.png';
 import dallaspalms from '../images/events/dallaspalms.png';
 import reception from '../images/events/kirincourt.jpg';
-import '../Event.scss';
+import './Event.scss';
 
 const Event = ({ title }) => {
   return (
