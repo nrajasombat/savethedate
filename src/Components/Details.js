@@ -20,10 +20,10 @@ const Details = ({ title }) => {
               <div className="section">
                 <h2>Other Info</h2>
                 <div className="heart" />
-                <h1>
+                <h3>
                   Our reception may be a little different from what you are used
                   to. Here are some things that may be unfamiliar:
-                </h1>
+                </h3>
               </div>
             </Col>
             <Col md={6}>
@@ -36,8 +36,10 @@ const Details = ({ title }) => {
             <Col md={6}>
               <div className="right">
                 <div className="title">Family Style</div>
-                The reception meal will be served family style, so be ready to
-                share with your table-mates.
+                <h6>
+                  The reception meal will be served family style, so be ready to
+                  share with your table-mates.
+                </h6>
               </div>
             </Col>
           </Row>
