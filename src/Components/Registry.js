@@ -3,6 +3,7 @@ import { Col, Row, Image } from 'react-bootstrap';
 import './Registry.scss';
 import zola from '../images/details/zola-logo-blue.jpg';
 import amazon from '../images/details/amazonlogo.png';
+import Footer from './Footer';
 
 const Registry = ({ title }) => {
   return (
@@ -32,6 +33,7 @@ const Registry = ({ title }) => {
           </Row>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

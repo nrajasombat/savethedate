@@ -15,6 +15,7 @@ import pic7 from '../images/ourstory/ring.jpg';
 import valentines from '../images/ourstory/032.JPG';
 import official from '../images/ourstory/facebookofficial.jpg';
 import savedate from '../images/ourstory/savedate.png';
+import Footer from './Footer';
 
 const selfies = [
   {
@@ -172,6 +173,7 @@ const OurStory = ({ title }) => {
           </Row>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

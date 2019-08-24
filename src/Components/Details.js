@@ -3,6 +3,7 @@ import { Col, Row, Image } from 'react-bootstrap';
 import './Details.scss';
 import parking from '../images/details/parking.png';
 import familystyle from '../images/details/familystyle.jpg';
+import Footer from './Footer';
 
 const Details = ({ title }) => {
   return (
@@ -45,6 +46,7 @@ const Details = ({ title }) => {
           </Row>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

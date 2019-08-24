@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './RSVP.scss';
+import Footer from './Footer';
 
 const RSVP = ({ title }) => {
   return (
@@ -72,6 +73,7 @@ const RSVP = ({ title }) => {
           </Row>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

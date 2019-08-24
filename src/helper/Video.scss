@@ -20,3 +20,30 @@
   overflow: hidden;
   filter: grayscale(100%);
 }
+.names-text {
+  h1 {
+    font-size: 20vh;
+    margin-top: 35%;
+    margin-bottom: 35px;
+    letter-spacing: -1px;
+    font-family: 'Playlist Script', serif;
+    color: #6f738a;
+    text-shadow: 2px 2px 4px #000000;
+    .italic {
+      font-style: italic;
+      font-family: 'Apple Chancery', sans-serif;
+      font-size: 160px;
+      vertical-align: middle;
+    }
+  }
+  h5 {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+}

@@ -3,6 +3,7 @@ import './Attendants.scss';
 import { Col, Button } from 'react-bootstrap';
 import Bridesmaid from '../helper/Bridesmaid';
 import Groomsmen from '../helper/Groomsmen';
+import Footer from './Footer';
 
 class Attendants extends Component {
   constructor(props) {
@@ -50,6 +51,7 @@ class Attendants extends Component {
             </ul>
           </Col>
         </div>
+        <Footer />
       </div>
     );
   }

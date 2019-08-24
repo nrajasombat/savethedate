@@ -1,5 +1,6 @@
 import React from 'react';
 import './Timeline.scss';
+import Footer from './Footer';
 
 const Timeline = ({ title }) => {
   return (
@@ -89,6 +90,7 @@ const Timeline = ({ title }) => {
           </section>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

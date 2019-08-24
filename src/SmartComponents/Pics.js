@@ -13,6 +13,7 @@ import img9 from '../images/gallery/engagement9.jpg';
 import img10 from '../images/gallery/engagement10.jpg';
 import img11 from '../images/gallery/engagement11.jpg';
 import './Pics.scss';
+import Footer from '../components/Footer';
 
 const photos = [
   {
@@ -130,6 +131,7 @@ class Pics extends Component {
             />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

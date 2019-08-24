@@ -3,6 +3,7 @@ import './About.css';
 import thapic from '../images/couple/Tha.png';
 import vupic from '../images/couple/Vu.png';
 import { Col, Image } from 'react-bootstrap';
+import Footer from './Footer.js';
 
 const About = ({ title }) => {
   return (
@@ -29,6 +30,7 @@ const About = ({ title }) => {
           </Col>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -15,6 +15,14 @@ const Video = () => {
             allowfullscreen
           ></iframe>
         </div>
+        <div className="names-text">
+          <h1>
+            Tha
+            <span className="italic"> &amp; </span>
+            Vu
+          </h1>
+          <h5 className="margin1 text-ornament">Are getting married</h5>
+        </div>
       </div>
     </div>
   );

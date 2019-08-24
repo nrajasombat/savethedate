@@ -4,6 +4,7 @@ import renaissance from '../images/hotels/renaissance.jpg';
 import courtyard from '../images/hotels/courtyard.jpg';
 import residenceinn from '../images/hotels/residenceinn.jpg';
 import { Image, Col, Row } from 'react-bootstrap';
+import Footer from './Footer';
 
 const hotels = [
   {
@@ -76,6 +77,7 @@ const Accommodations = ({ title }) => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

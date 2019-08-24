@@ -4,6 +4,7 @@ import ballroom from '../images/events/ballroom.png';
 import dallaspalms from '../images/events/dallaspalms.png';
 import reception from '../images/events/kirincourt.jpg';
 import './Event.scss';
+import Footer from './Footer';
 
 const Event = ({ title }) => {
   return (
@@ -94,6 +95,7 @@ const Event = ({ title }) => {
           </Row>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
