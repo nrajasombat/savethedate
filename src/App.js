@@ -13,6 +13,7 @@ import Accommodations from './components/Accommodations';
 import RSVP from './components/RSVP';
 import Timeline from './components/Timeline';
 import Footer from './components/Footer';
+import Video from './helper/Video';
 
 class App extends Component {
   render() {
@@ -20,7 +21,7 @@ class App extends Component {
       <HashRouter>
         <div className="App">
           <Header />
-          <Route exact path="/" component={Title} />
+          <Route exact path="/" component={Video} />
           <Route
             path="/about"
             component={() => <About title="It's A Match!" />}
