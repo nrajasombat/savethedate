@@ -9,6 +9,7 @@ import alanpic from '../images/groomsmen/Alan.png';
 import robertpic from '../images/groomsmen/Rob.png';
 import aaronpic from '../images/groomsmen/aaron.png';
 import bouthasonepic from '../images/groomsmen/bout.png';
+import stevenpic from '../images/groomsmen/Steven.png';
 
 import { Image } from 'react-bootstrap';
 
@@ -36,6 +37,11 @@ const groomsmen = [
   {
     picture: aaronpic,
     name: 'Aaron Belcher',
+    job: 'Groomsmen',
+  },
+  {
+    picture: stevenpic,
+    name: 'Steven Gangstead',
     job: 'Groomsmen',
   },
   {

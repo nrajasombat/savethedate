@@ -7,6 +7,17 @@ import { Image, Col, Row } from 'react-bootstrap';
 
 const hotels = [
   {
+    picture: renaissance,
+    name: 'Renaissance Dallas Richardson Hotel',
+    address: '900 E Lookout Dr, Richardson, TX 75082',
+    phoneNumber: '972-367-2000',
+    price: '$85 / night Please book by 09/26/2019',
+    room: 'Double queen beds / King Standard room',
+    option: 'Complimentary Breakfast, Wi-Fi, and Parking',
+    duration: '10 minutes drive to wedding reception site',
+    note: 'Note: Bride & Groom are staying here',
+  },
+  {
     picture: residenceinn,
     name: 'Residence Inn by Marriott Dallas Plano/Richardson',
     address: '1705 E President George Bush Hwy, Plano, TX 75074',
@@ -30,18 +41,6 @@ const hotels = [
       'Complimentary Wi-Fi, and Parking, Bar and Bistro on site to purchase – Breakfast and Dinner',
     duration: '10 minutes drive to wedding reception site',
     note: 'Note: This hotel is located right next to (Residence Inn)',
-  },
-  {
-    picture: renaissance,
-    name: 'Renaissance Dallas Richardson Hotel',
-    address: '900 E Lookout Dr, Richardson, TX 75082',
-    phoneNumber: '972-367-2000',
-    price: '$95 / night Please book by 09/26/2019',
-    room: 'Double queen beds / King Standard room',
-    option: 'Complimentary Breakfast, Wi-Fi, and Parking',
-    duration: '10 minutes drive to wedding reception site',
-    note:
-      'Note: This hotel is located right next to the below hotel (Courtyard)',
   },
 ];
 
