@@ -9,6 +9,10 @@ const Video = () => {
   return (
     <div className="video-page">
       <div className="container">
+        <audio src="/sundayMorning.mp3" autoPlay>
+          Error: your web browser does not support this audio player.
+        </audio>
+
         <div class="videoWrapper">
           <video autoplay loop id="myVideo">
             <source src="/snipit2.mp4" type="video/mp4" />
