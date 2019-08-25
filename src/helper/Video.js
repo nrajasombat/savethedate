@@ -1,19 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Video.scss';
+import { Button } from 'react-bootstrap';
 
 const Video = () => {
+  useEffect(() => {
+    document.getElementById('myVideo').play();
+  });
   return (
     <div className="video-page">
       <div className="container">
         <div class="videoWrapper">
-          <iframe
-            src="https://player.vimeo.com/video/355676019?
-            background=1&autoplay=1&loop=1&byline=0&title=0"
-            frameborder="0"
-            webkitallowfullscreen
-            mozallowfullscreen
-            allowfullscreen
-          ></iframe>
+          <video autoplay loop id="myVideo">
+            <source src="/snipit2.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="names-text">
           <h1>
@@ -24,6 +23,9 @@ const Video = () => {
           <h5 className="margin1 text-ornament">Are getting married</h5>
         </div>
       </div>
+      <a href="#weddingdate">
+        <Button>More Info</Button>
+      </a>
     </div>
   );
 };

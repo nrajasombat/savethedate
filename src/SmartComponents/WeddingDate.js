@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Col, Row, Button } from 'react-bootstrap';
 import './WeddingDate.scss';
 import Time from './Time.js';
+import Footer from '../components/Footer';
 
 class WeddingDate extends Component {
   constructor(props) {
@@ -23,13 +24,14 @@ class WeddingDate extends Component {
                   </h5>
                   <Time deadline={this.state.deadline} />
                   <a href="#rsvp">
-                    <Button>RSVP</Button>
+                    <Button>RSVP & Join</Button>
                   </a>
                 </div>
               </div>
             </Col>
           </Row>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -12,6 +12,7 @@ import Accommodations from './components/Accommodations';
 import RSVP from './components/RSVP';
 import Timeline from './components/Timeline';
 import Video from './helper/Video';
+import WeddingDate from './SmartComponents/WeddingDate';
 
 class App extends Component {
   render() {
@@ -47,6 +48,10 @@ class App extends Component {
             component={() => <Registry title="Registry" />}
           />
           <Route path="/RSVP" component={() => <RSVP title="RSVP" />} />
+          <Route
+            path="/weddingdate"
+            component={() => <WeddingDate title="Wedding Date" />}
+          />
         </div>
       </HashRouter>
     );
