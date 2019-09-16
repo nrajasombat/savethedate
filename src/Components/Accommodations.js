@@ -1,5 +1,4 @@
 import React from 'react';
-import './Accommodations.scss';
 import renaissance from '../images/hotels/renaissance.jpg';
 import courtyard from '../images/hotels/courtyard.jpg';
 import residenceinn from '../images/hotels/residenceinn.jpg';

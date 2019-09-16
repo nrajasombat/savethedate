@@ -116,21 +116,16 @@ class Pics extends Component {
   render() {
     return (
       <div className="pic">
-        <div className="container">
-          <div className="section-heading">
-            <h2>{this.props.title}</h2>
-            <div className="heart" />
-            <Gallery photos={photos} onClick={this.openLightbox} />
-            <Lightbox
-              images={photos}
-              onClose={this.closeLightbox}
-              onClickPrev={this.gotoPrevious}
-              onClickNext={this.gotoNext}
-              currentImage={this.state.currentImage}
-              isOpen={this.state.lightboxIsOpen}
-            />
-          </div>
-        </div>
+        <Gallery photos={photos} onClick={this.openLightbox} />
+        <Lightbox
+          images={photos}
+          onClose={this.closeLightbox}
+          onClickPrev={this.gotoPrevious}
+          onClickNext={this.gotoNext}
+          currentImage={this.state.currentImage}
+          isOpen={this.state.lightboxIsOpen}
+        />
+
         <Footer />
       </div>
     );

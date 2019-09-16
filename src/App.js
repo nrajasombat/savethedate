@@ -6,13 +6,14 @@ import Attendants from './components/Attendants';
 import Event from './components/Event';
 import Details from './components/Details';
 import Registry from './components/Registry';
-import Pics from './SmartComponents/Pics';
+
 import Header from './Header';
 import Accommodations from './components/Accommodations';
 import RSVP from './components/RSVP';
 import Timeline from './components/Timeline';
 import Video from './helper/Video';
 import WeddingDate from './SmartComponents/WeddingDate';
+import PhotoGalore from './SmartComponents/PhotoGalore';
 
 class App extends Component {
   render() {
@@ -42,7 +43,10 @@ class App extends Component {
             path="/detail"
             component={() => <Details title="More Information" />}
           />
-          <Route path="/gallery" component={() => <Pics title="Gallery" />} />
+          <Route
+            path="/gallery"
+            component={() => <PhotoGalore title="Gallery" />}
+          />
           <Route
             path="/registry"
             component={() => <Registry title="Registry" />}

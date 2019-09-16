@@ -23,7 +23,7 @@ const Event = ({ title }) => {
               <div className="right">
                 <div className="title">Celebrate With Us</div>
                 <h6> Date: Saturday, October 26, 2018 </h6>
-                <h6>Seating: 2:30 PM</h6>
+                <h6> Seating: 2:30 PM </h6>
                 <h6> Ceremony Start Time: 3:00 PM </h6>
                 <h6>Attire: Formal</h6>
               </div>
