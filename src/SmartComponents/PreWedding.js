@@ -65,6 +65,7 @@ import img68 from '../images/gallery/68.png';
 import img69 from '../images/gallery/69.png';
 import img70 from '../images/gallery/70.png';
 import img71 from '../images/gallery/71.png';
+import img73 from '../images/gallery/73.png';
 import './Pics.scss';
 import Footer from '../components/Footer';
 
@@ -394,6 +395,11 @@ const photos = [
   },
   {
     src: img70,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: img73,
     width: 4,
     height: 3,
   },
